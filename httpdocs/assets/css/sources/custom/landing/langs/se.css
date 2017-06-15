@@ -1,0 +1,103 @@
+/**************************   Demo competition 15/07/13   ***************************/
+.tab.green h3 {
+  font-size: 29px;
+}
+
+.demo10k .top_bullets .left {
+  width: 65%;
+}
+
+.demo10k .top_bullets .right {
+  width: 35%;
+}
+
+/****************************   Gold & Silver 24/07/13   ****************************/
+.goldsilver .prize_pool div.prize {
+  width: 245px;
+}
+
+.goldsilver .top_bullets .left {
+  width: 55%;
+}
+
+.goldsilver .top_bullets .right {
+  width: 45%;
+}
+
+/*************************   Contests 20$ Free 11/12/2013   *************************/
+body.contests_20_free .top_dark .quote_live {
+  font-size: 38px;
+}
+
+body.contests_20_free .middle .main_left .free {
+  font-size: 116px;
+  line-height: 174px;
+}
+
+body.contests_20_free .middle .main_left .start {
+  font-size: 73px;
+  line-height: 70px;
+}
+
+body.contests_20_free div.button_container {
+  margin-top: 40px;
+}
+
+body.contests_20_free .middle .main_right .create {
+  padding: 18px 0 55px 22px;
+}
+
+body.contests_20_free .middle .main_left {
+  height: 480px;
+  padding-left: 10px;
+}
+
+body.contests_20_free .middle .main_right {
+  height: 480px;
+  margin-bottom: 0;
+  padding-left: 10px;
+}
+
+/**********************************   Lucky Draw   **********************************/
+body.lucky_draw .right_tab span.black {
+  margin-top: -5px;
+}
+
+body.lucky_draw .right_tab {
+  font-size: 23px;
+  line-height: 31px;
+}
+
+/**********************************  affiliates ************************************/
+.affiliate.affiliates .aff-program .box h4 {
+  font-size: 122px;
+  top: -17px;
+}
+
+.affiliate.affiliates .aff-program .box h3 {
+  top: -37px;
+}
+
+/*******************************   Sub - affiliates *********************************/
+.affiliate.sub_affiliates .aff-program .box h4 {
+  font-size: 135px;
+  top: -29px;
+}
+
+.affiliate.sub_affiliates .aff-program .box h3 {
+  font-size: 44px;
+  top: -61px;
+}
+
+/*******************************   Double Commission  *******************************/
+.double_commission .box_left h3.first {
+  font-size: 73px;
+}
+
+.double_commission .box_right h2 {
+  font-size: 56px;
+}
+
+.double_commission .box_right ul li span {
+  font-size: 21px;
+}

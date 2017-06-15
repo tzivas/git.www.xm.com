@@ -1,0 +1,71 @@
+/* --------------------------------------------------------------------------------------
++
++ English
++
+-------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------
++
++ Separate CSS
++
+-------------------------------------------------------------------------------------- */
+
+
+/***************************   Forex World Championship   *****************************/
+
+/******************************   wechat & social media   *****************************/
+#xm-wechat .links-slider .slide {
+    float: left;
+    height: 55px;
+}
+
+#xm-wechat .links-slider .slide:first-child {
+    border-top: 0;
+}
+
+#xm-wechat .links-slider .slide .icon-wrap {
+    height: 30px;
+    top: 1px;
+}
+
+#xm-wechat .links-slider .slide .icon-wrap > i {
+    font-size: 32px;
+    color: #d51820;
+}
+
+#xm-wechat .links-slider .slide a span {
+    top: 34%;
+    color: #444;
+}
+
+#xm-wechat .links-slider .slide a:hover {
+    opacity: .7;
+    filter: alpha(opacity=70);
+}
+@media(min-width: 992px){
+
+}
+@media (max-width: 1199px) {
+    #main-nav.navbar-nav.nav-logo > li > a {
+        font-size: 17px!important;
+    }
+}
+
+/****************************   Partners Main Menu   ***************************/
+
+#main-nav.partnersNavMenu > li > a {
+  padding: 10px 12px;
+}
+
+
+/**********************************   MEMBERS AREA   **********************************/
+@media (min-width: 992px) and (max-width: 1299px){
+    .members_area #main-nav.navbar-nav > li > a {
+      font-size: 17px!important;
+    }
+}
+
+@media (min-width: 1200px) {
+  .members_area #main-nav.navbar-nav > li > a {
+    padding: 10px;
+  }
+}

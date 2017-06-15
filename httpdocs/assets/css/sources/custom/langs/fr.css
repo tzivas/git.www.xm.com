@@ -1,0 +1,144 @@
+/* --------------------------------------------------------------------------------------
++
++ French
++
+-------------------------------------------------------------------------------------- */
+.main-photo .block .btn-readmore, 
+.main-slider .block .btn-readmore {
+    font-size: 25px;
+}
+
+.main-photo .block .big-slider-title {
+  font-size: 50px;
+}
+
+
+.links-slider .slide a small {
+  font-size: 15px;
+}
+
+.links-slider .slide a {
+  font-size: 24px;
+}
+
+.header-top a.btn {
+  padding: 9px 17px !important;
+}
+
+/********************************   Promotion pages   *******************************/
+.lots_bonus_single .small_txt {
+  font-size: 16px;
+}
+
+.promotion h4 {
+  font-size: 22px;
+}
+
+.loyalty-status p span {
+  font-size: 18px;
+}
+
+.promotion .btn {
+  font-size: 22px  !important;
+  letter-spacing: 0.2px !important;
+  padding: 8px 16px !important;
+}
+
+#main-nav.navbar-nav > li > a {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.reasons-list {
+  font-size: 22px;
+}
+
+@media (max-width: 1199px) {
+    #main-nav.navbar-nav.nav-logo > li > a {
+        font-size: 18px!important;
+    }
+}
+
+/***************************   Forex World Championship   *****************************/
+
+#world-championship .round-circle .text2 {
+  padding: 0 30px;
+  line-height: 13px;
+}
+
+#world-championship .round-wrap.xl .text1,
+#world-championship .round-wrap.xl .active .text1 {
+  padding: 0 20px;
+}
+
+.partners .navbar.navbar-default ul.buttons-nav li a {
+  font-size: 13px!important;
+}
+
+.mArea ul#myTabCards.nav-tabs li a,
+.mArea ul#myTabCards.nav-tabs li > ul li a,
+.mArea ul#myTabCards.nav-tabs > li.active > ul a {
+  padding: 12px 10px;
+}
+
+html[lang="fr"] .buttons-wrap a.btn-red > small > span {
+  display: none;
+}
+
+@media (max-width: 360px) {
+  #xmmc_transactions label {
+    font-size: 13px;
+  }
+}
+
+.members_area #main-nav.navbar-nav > li > a {
+  font-size: 19px !important;
+}
+
+@media(max-width: 1249px) and (min-width: 992px){
+   .members_area #main-nav.navbar-nav > li > a {
+      font-size: 17px !important;
+  }
+}
+
+/***************************   Holiday Schedule   *****************************/
+/*
+.header-top .buttons-nav .btn-white,
+.header-top .buttons-nav a.btn-green,
+.header-top .buttons-nav a.btn-red,
+a.btn.btn-drop, button.btn.btn-drop {
+    font-size: 12px !important;
+}
+*/
+/***********************   End of Holiday Schedule   *************************/
+/*
+.header-top .buttons-nav a.btn-green,
+.header-top .buttons-nav a.btn-red {
+    font-size: 15px!important;
+}
+*/
+a.btn.btn-drop, button.btn.btn-drop {
+    padding: 11px 20px 6px 20px!important;
+}
+
+/* HOMEPAGE 2017 */
+.main-site.hp-v17 #hero-content .title {
+  font-size: 33px;
+}
+.main-site.hp-v17 .text-btn-content .box-text-btn p {
+  font-size: 21px;
+}
+.main-site.hp-v17.partners .buttons-wrap .btn.btn-green, 
+.main-site.hp-v17.partners .buttons-wrap .btn.btn-red,
+.hp-v17.partners .buttons-wrap .btn.btn-gray {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+@media(max-width:991px) {
+  .main-site.hp-v17.partners .buttons-wrap .btn.btn-green, 
+  .main-site.hp-v17.partners .buttons-wrap .btn.btn-red,
+  .hp-v17.partners .buttons-wrap .btn.btn-gray {
+      font-size: 23px;
+  }
+}
+/* END HOMEPAGE 2017 */

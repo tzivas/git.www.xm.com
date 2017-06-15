@@ -1,0 +1,204 @@
+
+/* --------------------------------------------------------------------------------------
++
++ FOOTER
++
+-------------------------------------------------------------------------------------- */
+footer {
+    color: #888888;
+    background-color: #000;
+    font-size: 12px;
+}
+footer a:hover {
+    color: #d51820 !important;
+}
+footer nav {
+    text-align: center;
+    background-color: #333;
+    padding: 40px 0 10px 0;
+    font-size: 13px;
+}
+footer ul {
+    display: block;
+    list-style: none;
+    line-height: 19px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+footer hr {
+    border-color: #444;
+}
+footer nav a {
+    color: #ddd !important;
+    font-weight: 300;
+}
+footer a:hover {
+    color: #d51820 !important;
+}
+footer li > strong {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+footer > .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer hr {
+    clear: both;
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    border-top: 1px solid #444!important;
+}
+footer p > a {
+    text-decoration: underline !important;
+    color: inherit !important;
+}
+/* Social Icons */
+.social-icons {
+    position:relative;
+    max-width: 175px;
+    top:-15px;
+    float: right;
+}
+.social-icons span {
+    display:block;
+    margin-top:0;
+}
+.social-icons a {
+    display:block;
+    text-decoration:none;
+    width:35px;
+    height:35px;
+    float:left;
+}
+
+.social-icons .fa,
+.social-icons .xm-font {
+    display:block;
+    font-size:20px;
+    vertical-align:middle;
+    text-align:center;
+    margin:0;
+    padding:8px;
+    color:#ccc;
+    text-shadow: 1px 1px 1px #222;
+}
+.s-icon {
+    float: left;
+    margin-right: 10px;
+}
+
+.xm-youku:before {
+    margin: 0;
+}
+.social-icons .fa-calendar-o:hover {
+    background-color:#a2ba00;
+}
+.social-icons .fa-facebook:hover {
+    background-color:#3b5998;
+}
+.social-icons .fa-twitter:hover {
+    background-color:#00aced;
+}
+.social-icons .fa-instagram:hover {
+    background-color: #2e5e86;
+}
+.social-icons .fa-youtube-play:hover {
+    background-color:#bb0000;
+}
+.social-icons .fa-linkedin:hover {
+    background-color:#007cb7;
+}
+.social-icons .fa-google-plus:hover {
+    background-color:#dd4b39;
+}
+.social-icons .fa-vk:hover {
+    background-color:#4C75A3;
+}
+.social-icons .fa-qq:hover {
+    background-color:#728fa4;
+}
+.social-icons .fa-weibo:hover {
+    background-color:#e89214;
+}
+.social-icons .fa-tencent-weibo:hover {
+    background-color:#00b2ff;
+}
+.social-icons .xm-youku:hover {
+    background-color:#fa0d0e;
+}
+.social-icons .fa:hover,
+.social-icons .xm-youku:hover {
+    opacity:1;
+}
+/********************************   Usain Bolt   *********************************/
+
+/*************** Media Queries ***************/
+@media(min-width:992px) {
+  
+    .usainbolt-footer {
+        position: relative;
+    }
+    .usainbolt-footer h4,
+    .usainbolt-footer h5 {
+        font-size: 14px;
+        color: #fff;
+        line-height: normal;
+        padding: 0;
+        margin: 0;
+    }
+    .usainbolt-footer h4 {
+        font-family: "bold","bold_ext",sans-serif;
+        font-size: 79px;
+        line-height: 65px;
+    }
+    .usainbolt-footer .text-wrap {
+        position: absolute;
+        top: -46%;
+        left: 22%;
+        bottom: 0;
+        margin: auto 0;
+        height: 105px;
+    }
+    .usainbolt-footer hr {
+        margin-bottom: 40px;
+    }
+    .usainbolt-footer img {
+        position: relative;
+        top: -65px;
+        margin-bottom: -86px;
+    }
+    #usain-bolt .bolt-record {
+        position: relative;
+        margin-top: -25px;
+    }
+}
+
+@media(min-width:768px) {
+    html[lang="ar"] .usainbolt-footer h4, 
+    html[lang="fa"] .usainbolt-footer h4, 
+    html[lang="bn"] .usainbolt-footer h4, 
+    html[lang="ja"] .usainbolt-footer h4, 
+    html[lang="ko"] .usainbolt-footer h4, 
+    html[lang="th"] .usainbolt-footer h4, 
+    html[lang="zh_CN"] .usainbolt-footer h4, 
+    html[lang="tw"] .usainbolt-footer h4, 
+    html[lang="ru"] .usainbolt-footer h4 {
+        font-size: 50px;
+        line-height: 63px;
+    }    
+    html[lang="ar"] .usainbolt-footer .text-wrap, 
+    html[lang="fa"] .usainbolt-footer .text-wrap {
+        right: 22% !important;
+    }  
+}
+
+@media(max-width:991px) {
+    .usainbolt-footer {
+        display: none;
+    }
+}

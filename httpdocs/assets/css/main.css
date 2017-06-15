@@ -1,0 +1,37 @@
+.maintenance {
+    width:73%;
+    margin:0 auto;
+    background: none;
+}
+.maintenance i.tools {
+    display:block;
+    width:218px;
+    height:204px;
+    margin: 0 auto;
+    background:transparent url("/assets/img/common/tools.png") no-repeat 0 0;
+}
+.maintenance h2,
+.maintenance p {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 24px;
+    color: #dbdbdb;
+    margin:0;
+    padding: 0;
+}
+.maintenance h2 {
+    text-align: center;
+}
+.maintenance h2 span{
+    display:inline-block;
+}
+.maintenance p {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+.maintenance span {
+    display:block;
+    font-size: 21px;
+    color:#ff0000;
+    text-align: center;
+}

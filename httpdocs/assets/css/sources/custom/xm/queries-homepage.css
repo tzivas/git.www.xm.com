@@ -1,0 +1,75 @@
+/*queries-homepage*/
+
+@media(min-width: 1200px){
+    .main-site.hp-v17 .accents .accent {
+        display: table-cell;
+        text-align: center;
+        position: relative
+    }
+}
+@media (min-width: 992px) {
+    .links-slider .slide {
+        border-top: 1px solid #ccc;
+        position: relative;
+        display: block;
+        text-align: left;
+    }
+}
+@media (min-width: 768px) {
+    .three-tab .nav-tabs>li {
+        width: 100% !important;
+    }
+}
+@media(max-width:1199px) {
+    .main-site.hp-v17 .accents .accent {
+        display: block;
+        width: 33.33%;
+        float: left;
+        text-align: center;
+    }
+    .main-site.hp-v17 section.container {
+        margin-top: 0!important;
+    }
+}
+
+@media(max-width: 767px) {
+    .main-site.hp-v17 .benefit-account em:after {
+        position: absolute;
+        content: "";
+        height: 55px;
+        right: 0;
+        border-right: 1px solid #acacac;
+        bottom: 0;
+        top: 0;
+        margin: auto 0;
+    }
+    .main-site.hp-v17 .benefit-account .wrap img {
+        display: none;
+    }
+    .main-site.hp-v17 .benefit-account .wrap {
+        padding-left: 15px;
+    } 
+}
+
+@media(min-width:768px){
+    .risk-block-pt {
+        display: table;
+    }
+    .risk-block-pt > ul {
+        display: table-row;
+    }
+    .risk-block-pt > ul > li {
+        display: table-cell;
+        width: 33.33%;
+
+    }
+}
+@media(max-width:767px){
+    .risk-block-pt.fixed {
+        display: none;
+    }
+    .risk-block-pt > ul > li + li {
+        border:none;
+        border-top:1px solid #d51820;
+    }
+}

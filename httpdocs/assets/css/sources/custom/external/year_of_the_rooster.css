@@ -1,0 +1,195 @@
+/********************************   Year of the rooster Promotion   *********************************/
+#xm-promo header {
+    position: relative;
+    background: none;
+    min-height: 335px;
+    z-index: 9;
+    padding-top: 40px;
+}
+#xm-promo header img {
+    position: absolute;
+    top: 0;
+}
+#xm-promo .num-prizes {
+    font-family: "bold", sans-serif;
+    font-size: 160px;
+    letter-spacing: -5px;
+    color: #e41019;
+    line-height: normal;
+}
+#xm-promo header .main-title {
+    position: relative;
+    top:-10px;
+    font-family: "bold_ext", sans-serif;
+    font-size: 39px;
+    line-height: normal;
+    color: #5e6062;
+    margin: 0;
+    padding: 0;
+}
+
+html[lang="zh_CN"] #xm-promo header .main-title {
+    top:-5px;
+    font-size: 53px;
+}
+html[lang="zh_CN"] #xm-promo header .main-title span {
+    top: -7px;
+}
+
+html[lang="zh_CN"] #xm-promo .num-prizes {
+    font-size: 116px;
+}
+
+#xm-promo header .main-title span {
+    position: relative;
+    top: 0px;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #d51820;
+}
+
+#xm-promo .line-arrow {
+    position: relative;
+    border-top: 1px solid #ccc;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#xm-promo .line-arrow:before {
+    display: block;
+    position: relative;
+    top: -1px;
+    content: "";
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-left: 21px solid transparent;
+    border-right: 21px solid transparent;
+    border-top: 21px solid #ccc;
+}
+
+#xm-promo .line-arrow:after {
+    display: block;
+    position: relative;
+    top: -22px;
+    content: "";
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+}
+
+#xm-promo .prizes h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #494949;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#xm-promo .prizes ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#xm-promo .prizes li img {
+    display: block;
+    position: relative;
+    left: 15px;
+    margin: 0 auto;
+}
+
+#xm-promo .prizes li span {
+    display: block;
+    margin-top: 10px;
+}
+
+#xm-promo .big {
+    margin-bottom: 10px;
+}
+
+#xm-promo .prizes li {
+    float: left;
+    text-align: center;
+}
+#xm-promo .arrows .fa {
+    font-size: 22px;
+    color: #d51820;
+    vertical-align: middle;
+}
+@media (min-width: 992px) {
+    #xm-promo .prizes li {
+        width: 25%;
+    }
+    #xm-promo .left-side {
+        max-width: 480px;
+        float: left;
+    }
+    #xm-promo .right-side {
+        max-width: 480px;
+        float: right;
+    }
+}
+
+@media (max-width: 1220px) {
+    #xm-promo header {
+        min-height: auto;
+        padding-top: 0;
+    }
+    #xm-promo header img {
+        display: none;
+    }
+    #xm-promo .num-prizes,
+    #xm-promo header .main-title {
+        display: block;
+        text-align: center;
+    }  
+}
+
+@media (max-width: 991px) {
+    #xm-promo .prizes ul li {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    #xm-promo header .main-title span {
+        display: none;
+    }
+    #xm-promo .num-prizes {
+        font-size: 134px;
+    }
+    #xm-promo header .main-title {
+        font-size: 30px;
+    }
+
+  html[lang="zh_CN"] #xm-promo header .main-title {
+      font-size: 38px;
+  }   
+  html[lang="zh_CN"] #xm-promo .num-prizes {
+    font-size: 90px;
+  } 
+}
+
+@media (max-width: 767px) {
+    #xm-promo .prizes ul li {
+        width: 50%;
+    }
+}
+
+@media (max-width: 460px) {
+    #xm-promo header .num-prizes {
+        font-size: 75px;
+        letter-spacing: -2px;
+    }
+    html[lang="zh_CN"] #xm-promo .num-prizes {
+        font-size: 68px;
+    }  
+}
+
+html[lang="tw"] #xm-promo .num-prizes {
+    font-size: 115px;
+}
+

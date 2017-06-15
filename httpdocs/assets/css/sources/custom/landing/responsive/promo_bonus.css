@@ -1,0 +1,795 @@
+.container {
+  max-width: 900px;
+}
+.promo-top.container-fluid {
+  position: relative;
+  padding-top: 15px;
+  background: #000 url("/assets/img/landing/promo-bonus/xm-bg.jpg") repeat-y 0 0;
+  color: #fff;
+  padding-bottom: 60px;
+}
+
+#header .logo {
+  display: block;
+  width: 140px;
+  height: 48px;
+  text-indent: -99999px;
+  background: transparent url("/assets/img/landing/promo-bonus/xm.png") no-repeat 0 0;
+  float:left;
+  z-index: 9;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+html[lang="ar"] .logo {
+  float: right!important;
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.promo-top.container-fluid:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  z-index: 0;
+  display:block;
+}
+
+.promo-top h1 {
+  font-size: 34px;
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  letter-spacing: -1px;
+  position: relative;
+}
+
+.promo-top h1 span {
+  margin: 0 20px;
+  color: #29a643;
+}
+
+.promo-top .features {
+  margin-top: 20px;
+}
+
+ul.checks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.promo-top ul.checks li {
+  position: relative;
+  font-size: 25px;
+  padding-left: 50px;
+  margin-bottom: 13px;
+}
+
+ul.checks li {
+  position: relative;
+  font-size: 15px;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+ul.checks li:before {
+  position: absolute;
+  content: "\f00c";
+  font-family: FontAwesome;
+  left: 0;
+  color: #29a643;
+}
+
+#platforms ul.checks {
+  max-width: 267px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+#platforms h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+#platforms p {
+  font-size: 17px;
+}
+
+#platforms h4 {
+  font-size: 18px;
+  text-align: center;
+}
+
+#platforms h4 .fa {
+  font-size: 64px;
+  vertical-align: middle;
+  margin-right: 15px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+#why-xm h3.line {
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 16px 0;
+  border-spacing: 1rem 0;
+  display: table;
+  line-height: 0px;
+  table-layout: auto;
+  text-align: center;
+  white-space: nowrap;
+  width: 100%;
+}
+
+#why-xm h3.line:before,
+#why-xm h3.line:after {
+  border-top: 2px double #29a643;
+  border-top-style: solid;
+  content: '';
+  display: table-cell;
+  width: 36%;
+}
+
+#why-xm h3 {
+  font-size: 19px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#why-xm .img {
+  display: block;
+  height: 91px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+
+html[lang="ru"] .promo-top h1 {
+    font-size: 33px;
+}
+html[lang="sv"] .promo-top h1 {
+  font-size: 41px;
+}
+
+html[lang="bn"] #why-xm h3{
+      font-size: 15px;
+      font-weight: 700;
+}
+
+html[lang="bn"] .promo_bonus .promo-top ul.checks li{
+    font-size: 21px;
+}
+html[lang="bn"] .promo_bonus  .btn > div {
+    top: 3px;
+    font-size: 22px;
+}
+html[lang="bn"] .promo_bonus .btn small {
+    top: -1px;
+    font-size: 11px;
+}
+
+html[lang="el"] .btn > div {
+  font-size: 33px;
+  font-family: "robcond", sans-serif;
+  top: 0px;
+}
+html[lang="el"] .btn.btn-green.center-block {
+  font-family: "robcond", sans-serif;
+}
+
+html[lang="ko"] .btn > div {
+  top: -5px;
+}
+
+html[lang="hu"] #platforms h4 {
+  font-size: 17px;
+}
+html[lang="hu"] .promo-top ul.checks li {
+  font-size: 20px;
+}
+
+html[lang="hu"] .btn > div {
+  top: 3px;
+}
+
+html[lang="ru"] .promo-top ul.checks li {
+  font-size: 22px;
+}
+
+html[lang="th"] .promo-top ul.checks li {
+  font-size: 22px;
+}
+html[lang="vn"] .promo-top ul.checks li {
+  font-size: 22px;
+}
+
+html[lang="it"] .promo-top ul.checks li {
+  font-size: 22px;
+}
+
+html[lang="vn"] .btn > div {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  top: -3px;
+}
+html[lang="vn"] .btn.btn-green.center-block {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+
+html[lang="th"] .gray-bar ul li {
+  font-size: 21px;
+}
+
+html[lang="ph"] .promo-top ul.checks li {
+  font-size: 20px;
+}
+html[lang="de"] .promo-top ul.checks li {
+  font-size: 22px;
+}
+html[lang="cs"] .promo-top ul.checks li {
+  font-size: 22px;
+}
+html[lang="nl"] .promo-top ul.checks li {
+  font-size: 22px;
+}
+html[lang="fr"] .promo-top ul.checks li {
+  font-size: 23px;
+}
+html[lang="ru"] .promo-top ul.checks li {
+  font-size: 20px;
+}
+
+#cookies-block,
+#risk-block {
+  position: fixed;
+  display: none;
+  bottom: 34px;
+  width: 100%;
+  padding: 5px 0;
+  background: rgba(37, 37, 37, 0.9);
+  border-top:1px solid #111;
+  z-index: 99;
+}
+#cookies-block > .wrap,
+#risk-block > .wrap {
+  position: relative;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-right: 100px;
+  min-height: 28px;
+  text-align: center;
+}
+#cookies-block .text-wrap,
+#cookies-block .btn-wrap,
+#risk-block .text-wrap {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 15px;
+}
+#cookies-block .btn-wrap {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  bottom: 0;
+  margin: auto 0;
+  height: 28px;
+}
+#cookies-block .link,
+#risk-block .link {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: underline!important;
+}
+#cookies-block .link:hover {
+  color: #d51820;
+}
+#cookies-block p,
+#risk-block p {
+  display: inline-block;
+  font-size: 12px;
+  color: #cbcbcb;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+#cookies-block .btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px!important;
+  text-transform: capitalize;
+}
+#risk-block {
+  display: block;
+  bottom: 0;
+  background: #efefef;
+  border-top:1px solid #ccc;
+  color: #777;
+}
+#risk-block > .wrap {
+  padding: 0;
+  min-height: 23px;
+}
+#risk-block p {
+  font-size: 13px;
+  color: #444;
+  font-weight: bold;
+}
+#risk-block .fa-info-circle {
+  position: relative;
+  top: -1px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+#risk-block .link {
+  color:#d51820;
+}
+
+#risk-block strong {
+  color: #444;
+}
+#risk-block a {
+  outline: none !important;
+  text-decoration: none !important;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  color: #d51820;
+}
+
+#platforms .open-button {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+@media (min-width: 992px) {
+
+  html[lang="ja"] .promo-top h1 {
+    font-size: 38px;
+  }
+
+  html[lang="el"] .promo-top h1 {
+    font-size: 37px;
+  }
+
+  html[lang="hu"] .promo-top h1 {
+    font-size: 38px;
+  }
+
+  html[lang="ph"] .promo-top h1 {
+    font-size: 41px;
+  }
+
+  html[lang="fa"] .promo-top h1 {
+    font-size: 36px;
+  }
+
+  html[lang="fr"] .promo-top h1 {
+    font-size: 32px;
+  }
+
+  html[lang="pl"] .promo-top h1 {
+    font-size: 35px;
+  }
+
+  html[lang="ar"] .promo-top h1 {
+    font-size: 32px;
+  }
+
+  html[lang="es"] .promo-top h1 {
+    font-size: 35px;
+  }
+
+  html[lang="ko"] .promo-top h1 {
+    font-size: 35px;
+  }
+
+  html[lang="pt"] .promo-top h1 {
+    font-size: 35px;
+  }
+
+  html[lang="tr"] .promo-top h1 {
+    font-size: 35px;
+  }
+
+  html[lang="vn"] .promo-top h1 {
+    font-size: 35px;
+  }
+
+  html[lang="hu"] .gray-bar ul li {
+    font-size: 24px;
+  }
+  .promo-top .features {
+    float: right;
+  }
+
+  #platforms h2 {
+    position: relative;
+    left: -10px;
+  }
+
+  #toggle-menu {
+    display: none;
+  }
+
+  .buttons-nav li.languages {
+    color: #fff;
+    padding-left: 7px;
+  }
+
+  #why-xm p {
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  html[lang="hu"] #why-xm p,
+  html[lang="pl"] #why-xm p {
+    text-align: left;
+  }
+}
+
+
+html[lang="ar"] #why-xm p,
+html[lang="fa"] #why-xm p {
+  text-align: center;
+}
+
+html[lang="ar"] .owl-carousel,
+html[lang="fa"] .owl-carousel {
+    direction: ltr;
+}
+
+@media (max-width: 991px) {
+  .promo-top h1 {
+    font-size: 36px;
+  }
+
+  html[lang="ru"] .promo-top h1 {
+    font-size: 25px;
+  }
+  html[lang="ja"] .promo-top h1 {
+    font-size: 30px;
+  }
+  html[lang="fa"] .promo-top h1 {
+    font-size: 30px;
+  }
+  html[lang="el"] .promo-top h1 {
+    font-size: 30px;
+  }
+  html[lang="el"] .gray-bar ul li {
+    font-size: 23px;
+  }
+  html[lang="hu"] .promo-top h1 {
+    font-size: 30px;
+  }
+  html[lang="hu"] .gray-bar ul li {
+    font-size: 19px;
+  }
+  html[lang="fr"] .promo-top h1 {
+    font-size: 28px;
+  }
+  html[lang="fr"] .gray-bar ul li {
+    font-size: 21px;
+  }
+
+  html[lang="sv"] .promo-top h1 {
+    font-size: 34px;
+  }
+
+  html[lang="pl"] .promo-top h1 {
+    font-size: 30px;
+  }
+
+  html[lang="ar"] .promo-top h1 {
+    font-size: 28px;
+  }
+
+  html[lang="es"] .promo-top h1 {
+    font-size: 30px;
+  }
+
+  html[lang="ko"] .promo-top h1 {
+    font-size: 32px;
+  }
+
+  html[lang="pt"] .promo-top h1 {
+    font-size: 32px;
+  }
+
+  html[lang="tr"] .promo-top h1 {
+    font-size: 28px;
+  }
+
+  html[lang="vn"] .promo-top h1 {
+    font-size: 32px;
+  }
+
+  html[lang="ph"] .promo-top h1 {
+    font-size: 32px;
+  }
+  html[lang="ph"] .gray-bar ul li {
+    font-size: 24px;
+  }
+
+  #platforms h4 .fa {
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  #platforms ul.checks {
+    max-width: 100%;
+    margin-left: 25px;
+  }
+
+  #why-xm [class*="col-"] {
+    margin-bottom: 60px;
+  }
+
+  #why-xm [class*="col-"]:last-child {
+    margin-bottom: 0;
+  }
+
+  #why-xm {
+    text-align: center;
+  }
+
+  .promo-top ul.checks li {
+    font-size: 21px;
+    margin-bottom: 12px;
+  }
+
+  .promo-top.container-fluid {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  #why-xm h3.line {
+    font-size: 30px;
+  }
+
+  #header .logo {
+    background-size: 90%;
+  }
+  .promo-top h1 {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 55px;
+  }
+
+  #platforms [class*="col-"] {
+    margin-bottom: 60px;
+  }
+
+  #platforms [class*="col-"]:last-child {
+    margin-bottom: 0;
+  }
+
+  html[lang="ru"] #why-xm h3.line {
+    font-size: 24px;
+  }
+}
+html[lang="ar"] .promo-top .logo,
+html[lang="fa"] .promo-top .logo {
+  float: right;
+}
+
+html[lang="ar"] .promo-top ul.checks li,
+html[lang="fa"] .promo-top ul.checks li {
+  padding-left: 0;
+  padding-right: 50px;
+}
+html[lang="ar"] ul.checks li,
+html[lang="fa"] ul.checks li {
+  padding-left: 0;
+  padding-right: 25px;
+  text-align: right;
+}
+html[lang="ar"] ul.checks li:before,
+html[lang="fa"] ul.checks li:before {
+  left: auto;
+  right: 0;
+}
+html[lang="ar"] #platforms h4 .fa,
+html[lang="fa"] #platforms h4 .fa {
+  margin-left: 15px;
+  margin-right: 0;
+}
+html[lang="fa"] .btn.btn-green.center-block {
+  max-width: 420px;
+}
+
+html[lang="pl"] .gray-bar ul li {
+  font-size: 24px;
+}
+html[lang="cs"] .buttons-nav li.languages {
+  padding-left:1px;
+}
+html[lang="vn"] .buttons-nav {
+  font-size: 12px;
+}
+
+.risk-msg-wrap p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.risk-msg-wrap p > a {
+  display: inline-block;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.risk-msg-wrap .risk {
+  font-weight: bold;
+}
+
+.table-bonus {
+  width: 100%;
+  font-family: 'Roboto',sans-serif;
+}
+
+.table-bonus .row1,
+.table-bonus .row2,
+.table-bonus .row3 {
+    vertical-align: top;
+}
+
+.table-bonus .row2 {
+   font-family: "regular", "regular_ext", sans-serif;
+    padding: 0 0 0 20px;
+}
+
+.table-bonus>tbody>tr>td {
+    padding: 0 0 0 22px;
+    line-height: normal;
+    text-align: left;
+}
+
+.promo-top .st4 {
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+html[lang="ar"] .table-bonus>tbody>tr>td,
+html[lang="fa"] .table-bonus>tbody>tr>td {
+  text-align: right;
+  padding: 0 22px 0 0;
+}
+
+html[lang="ar"] .table-bonus .row2,
+html[lang="fa"] .table-bonus .row2 {
+    padding: 0 20px 0 0;
+}
+html[lang="ar"] .st4,
+html[lang="fa"] .st4 {
+  text-align: right;
+}
+
+.coop-logo {
+  margin: 0;
+  text-align: center;
+}
+.coop-logo img {
+  position: relative;
+  top:-3px;
+}
+
+.risk ~ a {
+  color: #999;
+  text-decoration: underline;
+}
+.risk ~ a:hover,
+.risk ~ a:focus {
+  color: #d51820;
+}
+ 
+
+@media(min-width: 992px){
+  .table-bonus {
+      font-size: 38px;
+  }
+  .table-bonus .row2 {
+    font-size: 205px;
+  }
+  .group6 .row2 {
+    font-size: 160px;
+  } 
+}
+@media(min-width: 768px){
+  .table-bonus {
+      border-left: 12px solid #29a643;
+  } 
+  html[lang="ar"] .table-bonus,
+  html[lang="fa"] .table-bonus {
+      border-left: 0;
+      border-right: 12px solid #29a643;
+  }
+  .table-bonus .row2 {
+      line-height: 230px;
+  }  
+  .promo_neteller .promo-top .features,
+  .promo_skrill .promo-top .features{
+    margin-top: 0;
+  }  
+}
+@media(max-width: 991px){
+  .table-bonus {
+      font-size: 38px;
+  }
+  .table-bonus .row2 {
+    font-size: 180px;
+  }
+  .group6 .row2 {
+    font-size: 130px;
+  }   
+}
+
+@media(max-width: 767px){
+  .table-bonus {
+      font-size: 30px;
+      margin-top: 60px;
+  }
+  .table-bonus .row2 {
+    font-size: 170px;
+    padding: 0;
+  }
+
+  html[lang="ar"] .table-bonus>tbody>tr>td,
+  html[lang="fa"] .table-bonus>tbody>tr>td,
+  .table-bonus>tbody>tr>td {
+    text-align: center;
+    padding: 0;
+  }  
+  .group6 .row2 {
+    font-size: 140px;
+  }
+  .coop-logo {
+      font-size: 19px;
+  }    
+   .coop-logo span {
+    display: none;
+   } 
+  .promo_neteller .promo-top hr,
+  .promo_skrill .promo-top hr{
+     display:none;
+  }
+  .coop-logo{
+    margin-top: 83px;
+  }   
+
+  .coop-logo img {
+    display: block;
+    margin: 15px auto 0 auto;
+  }
+
+}
+
+@media(max-width: 460px){
+  .table-bonus {
+    font-size: 28px;
+    margin-top: 35px;
+  }
+  .group6 .row2 {
+    font-size: 115px;
+  }
+}

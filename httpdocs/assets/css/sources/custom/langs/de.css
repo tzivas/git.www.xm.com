@@ -1,0 +1,137 @@
+/* --------------------------------------------------------------------------------------
++
++ German
++
+-------------------------------------------------------------------------------------- */
+.main-photo .block .btn-readmore, 
+.main-slider .block .btn-readmore {
+  font-size: 24px;
+}
+.main-photo .block .big-slider-title {
+  font-size: 52px;
+}
+
+.links-slider .slide a {
+  font-size: 24px;
+}
+
+.links-slider .slide a small {
+  font-size: 16px;
+}
+
+.members_area #main-nav.navbar-nav > li > a {
+padding: 10px 14px;
+}
+
+/********************************   Promotion pages   *******************************/
+.promotion h4 {
+  font-size: 23px;
+}
+
+.lots_bonus_single .big_txt {
+  font-size: 43px;
+  letter-spacing: -1px;
+  margin-top: 15px;
+}
+
+.lots_bonus_single .small_txt {
+  line-height: 21px;
+}
+
+/* #Media Queries
+================================================== */
+@media (max-width: 767px) {
+  .main-photo .block h2, #owl-main .item .block h2 {
+    font-size: 72px;
+    font-weight: normal;
+  }
+
+  .reasons-list li a {
+    font-size: 20px;
+  }
+
+
+  .main-photo .block p, #owl-main .item .block p {
+    font-size: 16px;
+  }
+
+  #owl-main .item {
+    height: 290px;
+  }
+}
+.symbols-table th {
+  font-size: 11px;
+}
+
+/**********************************   XM CONTESTS   **********************************/
+.contest-promo h2 span {
+  font-size: 36px;
+}
+
+/* #Media Queries
+================================================== */
+@media (max-width: 1290px) and (min-width: 991px) {
+  #main-nav.navbar-nav > li > a {
+    font-size: 18px !important;
+  }
+}
+
+
+/* ******************* Skrill 1-Tap Payment Method ******************* */
+button.btn.btn-solid.btn-green.cancel-1tap {
+  font-size: 14px !important;
+}
+
+/****************************   Partners Main Menu   ***************************/
+#main-nav.partnersNavMenu > li > a {
+  padding: 15px 8px !important;
+  font-size: 18px !important;
+}
+/**********************************   MEMBERS AREA   **********************************/
+.members_area #main-nav.navbar-nav > li > a {
+  padding: 10px 7px;
+  font-size: 18px !important;
+}
+
+
+/***************************   Forex World Championship   *****************************/
+#world-championship .round-wrap.xl.r3 .round {
+    margin-top: 45px;
+    font-size: 40px;
+    line-height: 40px;
+}
+#world-championship .round-wrap.xl .text1,
+#world-championship .round-wrap.xl .active .text1 {
+    padding: 0 40px;
+}
+#world-championship .round-wrap.xl.r3 .winners {
+    top: 24px;
+}
+@media(max-width: 1199px) and (min-width: 992px){
+   .members_area #main-nav.navbar-nav > li > a {
+      font-size: 18px !important;
+  } 
+}
+
+/***************************   Holiday Schedule   *****************************/
+.header-top .links-nav li {
+  font-size: 11px;
+}
+.header-top ul li + li {
+  margin-left: 17px;
+}
+/***********************   End of Holiday Schedule   *************************/
+
+/* HOMEPAGE 2017 */
+.main-site.hp-v17 #hero-content .title {
+  font-size: 33px;
+}
+.main-site.hp-v17 .text-btn-content .box-text-btn p {
+  font-size: 21px;
+}
+@media (max-width: 374px) {
+   .main-site.hp-v17 .buttons-wrap a.btn small {
+      font-size: 12px!important;
+  } 
+}
+/* END HOMEPAGE 2017 */

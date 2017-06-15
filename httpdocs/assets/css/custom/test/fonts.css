@@ -1,0 +1,195 @@
+/* --------------------------------------------------------------------------------------
++
++ FONTS
++
+-------------------------------------------------------------------------------------- */
+/******   Bebasneue extended  ******/
+
+@font-face {
+  font-family: "bold_ext";
+  src: url('https://cloud.xm-cdn.com/assets/fonts/bebasneue_ext/bebasneue_bold-webfont.ttf?v1.0') format('truetype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue_ext/bebasneue_bold-webfont.woff?v1.0') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue_ext/bebasneue_bold-webfont.eot?v1.0') format('embedded-opentype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue_ext/bebasneue_bold-webfont.svg?v1.0') format('svg');
+}
+@font-face {
+  font-family: "regular_ext";
+  src: url('https://cloud.xm-cdn.com/assets/fonts/bebasneue_ext/bebasneue_regular-webfont.ttf?v1.0') format('truetype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue_ext/bebasneue_regular-webfont.woff?v1.0') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue_ext/bebasneue_regular-webfont.eot?v1.0') format('embedded-opentype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue_ext/bebasneue_regular-webfont.svg?v1.0') format('svg');
+}
+@font-face {
+  font-family: "book_ext";
+  src: url('https://cloud.xm-cdn.com/assets/fonts/bebasneue_ext/bebasneue_book-webfont.ttf?v1.0') format('truetype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue_ext/bebasneue_book-webfont.woff?v1.0') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue_ext/bebasneue_book-webfont.eot?v1.0') format('embedded-opentype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue_ext/bebasneue_book-webfont.svg?v1.0') format('svg');
+}
+
+/******   Bebasneue   ******/
+@font-face {
+  font-family: "bold";
+  src: 	url('https://cloud.xm-cdn.com/assets/fonts/bebasneue/bebasneue_bold-webfont.ttf?v1.0') format('truetype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue/bebasneue_bold-webfont.woff?v1.0') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue/bebasneue_bold-webfont.eot?v1.0') format('embedded-opentype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue/bebasneue_bold-webfont.svg?v1.0') format('svg');
+}
+@font-face {
+  font-family: "regular";
+  src: 	url('https://cloud.xm-cdn.com/assets/fonts/bebasneue/bebasneue_regular-webfont.ttf?v1.0') format('truetype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue/bebasneue_regular-webfont.woff?v1.0') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue/bebasneue_regular-webfont.eot?v1.0') format('embedded-opentype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue/bebasneue_regular-webfont.svg?v1.0') format('svg');
+}
+@font-face {
+  font-family: "book";
+  src: 	url('https://cloud.xm-cdn.com/assets/fonts/bebasneue/bebasneue_book-webfont.ttf?v1.0') format('truetype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue/bebasneue_book-webfont.woff?v1.0') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue/bebasneue_book-webfont.eot?v1.0') format('embedded-opentype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/bebasneue/bebasneue_book-webfont.svg?v1.0') format('svg');
+}
+/****   Roboto Condensed   ****/
+@font-face {
+  font-family: 'RobCond';
+  src: url('https://cloud.xm-cdn.com/assets/fonts/robotoCond/RobotoCondensed-Light.eot');
+  src: url('https://cloud.xm-cdn.com/assets/fonts/robotoCond/RobotoCondensed-Light.eot?#iefix') format('embedded-opentype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/robotoCond/RobotoCondensed-Light.woff') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/robotoCond/RobotoCondensed-Light.ttf') format('truetype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/robotoCond/RobotoCondensed-Light.svg#RobCond') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-variant:normal;
+}
+@font-face {
+  font-family: 'RobCond';
+  src: url('https://cloud.xm-cdn.com/assets/fonts/robotoCond/RobotoCondensed-Regular.eot');
+  src: url('https://cloud.xm-cdn.com/assets/fonts/robotoCond/RobotoCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/robotoCond/RobotoCondensed-Regular.woff') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/robotoCond/RobotoCondensed-Regular.ttf') format('truetype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/robotoCond/RobotoCondensed-Regular.svg#RobCond') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-variant:normal;
+}
+@font-face {
+  font-family: 'RobCond';
+  src: url('https://cloud.xm-cdn.com/assets/fonts/robotoCond/RobotoCondensed-Bold.eot');
+  src: url('https://cloud.xm-cdn.com/assets/fonts/robotoCond/RobotoCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/robotoCond/RobotoCondensed-Bold.woff') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/robotoCond/RobotoCondensed-Bold.ttf') format('truetype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/robotoCond/RobotoCondensed-Bold.svg#RobCond') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-variant:normal;
+}
+
+/****   Roboto  ****/
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Thin-webfont.eot');
+  src: url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Thin-webfont.woff') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Thin-webfont.ttf') format('truetype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Thin-webfont.svg#RobCond') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Light-webfont.eot');
+  src: url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Light-webfont.woff') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Light-webfont.ttf') format('truetype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Light-webfont.svg#RobCond') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Regular-webfont.eot');
+  src: url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Regular-webfont.woff') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Regular-webfont.ttf') format('truetype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Regular-webfont.svg#RobCond') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Medium-webfont.eot');
+  src: url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Medium-webfont.woff') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Medium-webfont.ttf') format('truetype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Medium-webfont.svg#RobCond') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Bold-webfont.eot');
+  src: url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Bold-webfont.woff') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Bold-webfont.ttf') format('truetype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Bold-webfont.svg#RobCond') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Black-webfont.eot');
+  src: url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Black-webfont.eot?#iefix') format('embedded-opentype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Black-webfont.woff') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Black-webfont.ttf') format('truetype'),
+  url('https://cloud.xm-cdn.com/assets/fonts/roboto/Roboto-Black-webfont.svg#RobCond') format('svg');
+}
+
+/****   XM-Fonts   ****/
+
+@font-face {
+  font-family: 'xmfont';
+  src:  url('https://cloud.xm-cdn.com/assets/fonts/xm-font/xmfont.eot?ramvzy');
+  src:  url('https://cloud.xm-cdn.com/assets/fonts/xm-font/xmfont.eot?ramvzy#iefix') format('embedded-opentype'),
+    url('https://cloud.xm-cdn.com/assets/fonts/xm-font/xmfont.woff2?ramvzy') format('woff2'),
+    url('https://cloud.xm-cdn.com/assets/fonts/xm-font/xmfont.ttf?ramvzy') format('truetype'),
+    url('https://cloud.xm-cdn.com/assets/fonts/xm-font/xmfont.woff?ramvzy') format('woff'),
+    url('https://cloud.xm-cdn.com/assets/fonts/xm-font/xmfont.svg?ramvzy#xmfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/****   Hind Siliguri   ****/
+@font-face {
+  font-family: 'Hind Siliguri';
+  src: url('https://cloud.xm-cdn.com/assets/fonts/hind_siliguri/hindsiliguri-light-webfont.woff2') format('woff2'),
+  url('https://cloud.xm-cdn.com/assets/fonts/hind_siliguri/hindsiliguri-light-webfont.woff') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/hind_siliguri/hindsiliguri-light.ttf') format('ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind Siliguri';
+  src: url('https://cloud.xm-cdn.com/assets/fonts/hind_siliguri/hindsiliguri-regular-webfont.woff2') format('woff2'),
+  url('https://cloud.xm-cdn.com/assets/fonts/hind_siliguri/hindsiliguri-regular-webfont.woff') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/hind_siliguri/hindsiliguri-regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hind Siliguri';
+  src: url('https://cloud.xm-cdn.com/assets/fonts/hind_siliguri/hindsiliguri-bold-webfont.woff2') format('woff2'),
+  url('https://cloud.xm-cdn.com/assets/fonts/hind_siliguri/hindsiliguri-bold-webfont.woff') format('woff'),
+  url('https://cloud.xm-cdn.com/assets/fonts/hind_siliguri/hindsiliguri-bold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+}

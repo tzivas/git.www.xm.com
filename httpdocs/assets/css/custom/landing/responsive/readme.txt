@@ -1,0 +1,1 @@
+Files common_responsive.css and promo_bonus.css are used only in landing page: http://grajnaforex.pl/

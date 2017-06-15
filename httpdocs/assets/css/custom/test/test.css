@@ -1,0 +1,87 @@
+/*@import url('fonts.css');
+@import url('https://www.xm.com/assets/css/custom/test/xmkyc.css');*/
+@import url('https://cloud.xm-cdn.com/assets/css/custom/test/fonts.css');
+@import url('https://cloud.xm-cdn.com/assets/css/custom/test/xmkyc.css');
+
+
+.col-xs-4.col-xs-offset-4.screen-header-placeholder.non-mobile-content,
+.embedded-header-panel,
+.main,.page .row {
+    margin: 0;
+    text-align: left;
+    padding: 0;
+    width: 100%;
+    max-width: initial;
+}
+
+body {
+    color:initial!important;
+}
+
+.embedded-header-panel.register-phone .screen-header-placeholder .header-image,
+div.col-xs-4.help-placeholder.non-mobile-content,
+.register-phone-image {display: none;}
+
+.embedded-header-panel .screen-header-placeholder{
+    height :initial;
+}
+
+.page .row .col-xs-6 {
+/*     left: 58.3333333%; */
+/* padding:initial;
+padding:0;
+margin:0;
+float:left; */
+
+width:100%
+
+
+}
+
+.page .row .col-xs-5 {
+
+/*     right: 50%; */
+    margin-left:0;
+    width: 50%;
+}
+
+.strong-header {
+
+/*     width: 50%; */
+    font-weight:100;
+    padding-bottom:60px;
+}
+
+.embedded-header-panel{
+    height:inherit
+}
+
+h2, .header-text, h2.header-text{
+    font-weight:800;
+}
+
+label {
+    font-weight:800;
+    font-size:14px;
+    padding-bottom:10px;
+}
+
+
+
+.btn.button-secondary, .btn.secondary,.btn:disabled, .btn:disabled:hover {
+    background-color:#29A643!important;
+    color: #ffffff;
+    border-color: #FFF!important;
+}
+
+.btn.button-secondary:hover, .btn.secondary:hover {
+    background-color: #238C38!important;
+    color: #ffffff;
+    border-color: #FFF!important;
+}
+
+form.send-otp-form.send-only-otp-form {
+    padding-bottom: 25px;
+    border-bottom:1px solid #ccc;
+    margin-bottom:25px;
+}

@@ -1,0 +1,72 @@
+/* --------------------------------------------------------------------------------------
++
++ Czech
++
+-------------------------------------------------------------------------------------- */
+.main-photo .block .btn-readmore, 
+.main-slider .block .btn-readmore {
+    font-size: 24px;
+}
+.main-photo .block .big-slider-title {
+  font-size: 58px;
+}
+.header-top .buttons-nav a.btn {
+  padding: 8px 14px !important;
+}
+
+/**********************************   XM CONTESTS   **********************************/
+.contest-promo h2 span {
+  font-size: 39px;
+  font-family: "regular","regular_ext", "Arial", sans-serif !important;
+}
+
+/* ******************* Skrill 1-Tap Payment Method ******************* */
+button.btn.btn-solid.btn-green.cancel-1tap {
+  font-size: 14px !important;
+}
+/***************************   Forex World Championship   *****************************/
+#world-championship .round-wrap.xl .round {
+    font-size: 38px;
+    line-height: 40px;
+}
+#world-championship .round-wrap.xl .big-prizes .price {
+    font-size: 68px;
+}
+
+/***************************   Holiday Schedule   *****************************/
+.header-top .buttons-nav a.btn {
+    padding: 8px 13px !important;
+}
+/***********************   End of Holiday Schedule   *************************/
+.buttons-wrap a.btn small > span {
+  display: none;
+}
+
+/* #Media Queries
+================================================== */
+@media (max-width: 992px) {
+    .partners .layout .site-canvas .buttons-wrap .container .row .col-sm-6 a {
+        font-size: 28px!important;
+    }
+}
+
+/* HOMEPAGE 2017 */
+.main-site.hp-v17 #hero-content .title {
+  font-size: 37px;
+}
+@media(max-width:991px) {
+  .main-site.hp-v17.partners .buttons-wrap .btn.btn-green, 
+  .main-site.hp-v17.partners .buttons-wrap .btn.btn-red,
+  .hp-v17.partners .buttons-wrap .btn.btn-gray {
+    font-size: 25px;
+  }
+}
+@media (max-width: 374px) {
+  .main-site.hp-v17 .buttons-wrap a.btn {
+      font-size: 24px!important;
+  }
+  .main-site.hp-v17 .buttons-wrap a.btn small {
+      font-size: 12px!important;
+  }
+}
+/* END HOMEPAGE 2017 */

@@ -1,0 +1,200 @@
+/**********************************   Countdown   ***********************************/
+.main_right .prize_pool {
+  padding-left: 54px;
+}
+
+a.button.regclosed {
+  font-size: 28px;
+}
+
+/**************************   Demo competition 15/07/13   ***************************/
+.tab.green h3 {
+  font-size: 27px;
+}
+
+.demo10k .top_bullets .left {
+  width: 60%;
+}
+
+.demo10k .top_bullets .right {
+  width: 40%;
+}
+
+/****************************   Gold & Silver 24/07/13   ****************************/
+.goldsilver .prize_pool div.prize {
+  width: 245px;
+}
+
+.goldsilver .top_bullets .left {
+  width: 55%;
+}
+
+.goldsilver .top_bullets .right {
+  width: 45%;
+}
+
+.goldsilver .top_bullets .left, .goldsilver .top_bullets .right {
+  font-size: 23px;
+  line-height: 39px;
+}
+
+/*******************   €50 Free + 100% Bonus Promotion 15/09/13   *******************/
+.fifty div.bonus {
+  top: 130px;
+}
+
+.fifty div.bonus .headliner {
+  font-size: 112px;
+}
+
+.fifty div.bonus .headliner span {
+  font-size: 132px;
+}
+
+.fifty div.bonus .amount {
+  font-size: 82px;
+  line-height: 90px;
+}
+
+.fifty div.bonus .flag {
+  top: -8px;
+}
+
+.fifty a.button .button_text {
+  font-size: 26px;
+}
+
+.fifty .shiner {
+  top: -364px;
+}
+
+.fifty div.terms .headliner_answer {
+  font-size: 29px;
+  margin-top: 50px;
+}
+
+/*********************   Skrill Promotion 17/10/13 - 16/11/13   *********************/
+.skrill .top_half .push_button_wrapper a.buttonSkrill div.button_head {
+  font-size: 31px;
+  padding-top: 29px;
+}
+
+.skrill .top_half .push_button_wrapper a.buttonSkrill div.button_body {
+  margin-top: 2px;
+}
+
+/*************************   Contests 20$ Free 11/12/2013   *************************/
+body.contests_20_free .top_dark .quote_live {
+  font-size: 42px;
+}
+
+body.contests_20_free .main_left .twenty {
+  font-size: 220px;
+  line-height: 220px;
+}
+
+body.contests_20_free .middle .main_left .free {
+  font-size: 135px;
+  line-height: 187px;
+}
+
+body.contests_20_free .middle .main_left .start {
+  font-size: 87px;
+  line-height: 97px;
+}
+
+body.contests_20_free .middle .main_right ul li {
+  font-size: 18px;
+  padding: 10px 0 10px 60px;
+  background: url("/assets/img/landing/contests_20_free/box_check.png") 0 6px no-repeat;
+}
+
+body.contests_20_free .middle .main_right .create {
+  padding: 35px 0 55px 22px;
+  line-height: 46px;
+}
+
+body.contests_20_free div.button_container {
+  margin-top: 50px;
+}
+
+body.contests_20_free .middle .main_right {
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+body.contests_20_free .middle .main_left {
+  padding-right: 10px;
+}
+
+/**********************************   DAX Promo   **********************************/
+body.dax_promo .dax_offer .top_text {
+  font-size: 124px;
+}
+
+/************************************   Promo   ************************************/
+.promo .new_promotion span {
+  font-size: 17px;
+}
+
+.promo .g1g3 .right_box ul li {
+  font-size: 22px;
+  line-height: 34px;
+}
+
+.promo .g1g3 .left_box h3.first,
+.promo .g1g3 .left_box h3.last {
+  font-size: 42px;
+}
+
+.promo .left_box h3.first,
+.promo .left_box h3.large,
+.promo .left_box h3.last {
+  text-transform: none;
+}
+
+/**********************************  affiliates ************************************/
+.affiliate.affiliates .aff-program .box h4 {
+  font-size: 140px;
+  top: -30px;
+}
+
+.affiliate.affiliates .aff-program .box h3 {
+  top: -58px;
+}
+
+/*******************************   Sub - affiliates *********************************/
+.affiliate.sub_affiliates .aff-program .box h4 {
+  font-size: 83px;
+  top: 0px;
+}
+
+.affiliate.sub_affiliates .aff-program .box h3 {
+  top: -15px;
+}
+
+/*******************************   Double Commission  *******************************/
+.double_commission h1 {
+  font-size: 34px;
+}
+
+.double_commission .box_right h2 {
+  font-size: 43px;
+  line-height: 58px;
+}
+
+.double_commission .box_right ul li span {
+  font-size: 18px;
+}
+
+.double_commission .box_right ul li {
+  height: 41px;
+}
+
+.double_commission .box_left h3.last {
+  font-size: 100px;
+}
+
+.double_commission .box_right {
+  height: 428px;
+}

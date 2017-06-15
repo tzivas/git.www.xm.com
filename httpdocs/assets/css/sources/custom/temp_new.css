@@ -1,0 +1,470 @@
+/**********************************************************************/
+/* Add at this file any NEW css rules or rules you want to overwrite */
+/**********************************************************************/
+/* Gold Promotion */
+.gold-silver .xm-font {
+    font-size: 90px;
+    color:#d51820;
+}
+
+.gold-silver {
+    font-family: "bold", "regular_ext", sans-serif;
+    text-transform: uppercase;
+}
+
+.gold-silver h3 {
+    font-size: 26px;
+}
+
+#galaPromo table th {
+    text-transform: none;
+}
+h3#duration {
+    font-size: 26px !important;
+    font-family: bold !important;
+}
+/* End of Gold Promotion */
+
+@media(min-width:992px) {
+    .gold-silver .line {
+        position: relative;
+        top: -40px;
+        border-top: 1px dashed #d51820;
+        border-left: 1px dashed #d51820;
+        border-right: 1px dashed #d51820;
+        max-width: 780px;
+        height: 30px;
+        margin: 0 auto;
+    }
+
+    .gold-silver .line:before {
+        position: absolute;
+        content: "";
+        top: -150px;
+        left: 0;
+        right: 0;
+        margin: 0;
+        border-left: 1px dashed #d51820;
+        width: 1px;
+        height: 180px;
+        margin: 0 auto;
+    }
+}
+
+i.aurfy_alipay   { background: url('/assets/img/common/logo/alipay-cn.png?v1.0') no-repeat 0 0; }
+
+
+.red-number {
+    font-size: 70px;
+    font-family: "book", "book_ext", sans-serif !important;
+    font-style: normal;
+    font-weight: 300;
+    border: none;
+    color: #d72027;
+    margin: 0;
+    padding: 4px 0 0 0;
+    white-space: nowrap;
+    line-height: 97px;
+}
+
+/* Members Area - Validation Page */
+.main_validation.mArea .validation-box.alert{
+    padding: 30px 40px;
+}
+
+.main_validation.mArea .validation-box.alert .fa{
+    padding: 0;
+    font-size: 100px;
+}
+
+.main_validation.mArea .alert h3{
+    line-height: 1.3;
+}
+
+.main_validation.mArea .alert div.hr{
+    width: 30%;
+    background: #ccc;
+    height: 1px;
+    margin: auto;
+}
+
+.main_validation.mArea .alert ul.checks li{
+    padding: 0;
+    margin: 0 0 3px 0;
+}
+
+.main_validation.mArea .alert ul.checks li:before {
+    position: relative;
+    font-size: 18px;
+    top: -1px;
+    left: -4px;
+}
+
+.main_validation.mArea .alert.alert-success ul.checks li:before {color: #30a544;}
+.main_validation.mArea .alert.alert-warning ul.checks li:before {color: #b17c1f;}
+
+.main_validation.mArea .alert .xm-font {
+    font-size: 130px;
+}
+
+.main_validation.mArea .alert.alert-warning .xm-members-nocards {
+    color: #fea812;
+}
+
+.main_validation.mArea .alert.alert-success .xm-highspeed {
+    color: #31b63b;
+}
+
+.line__arrowdown{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #ccc;
+}
+.line__arrowdown:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: -1px;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 15px solid #fff;
+    z-index: 2;
+}
+.line__arrowdown:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 15px solid #ccc;
+    z-index: 1;
+}
+
+.semi-final-title {
+    text-transform: capitalize;
+}
+
+.xmApi table.plain,
+.xmApi table.plain th,
+.xmApi table.plain td {
+    border: 1px solid #000 !important;
+}
+.xmApi table.plain th {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 30px;
+}
+.xmApi table.plain td {
+    color: #333;
+    font-size: 16px;
+    padding: 3px;
+}
+
+.slick-slide a{
+    text-decoration: underline!important;
+    color: #fff;
+}
+.slick-slide a:hover {
+    color: #d72027;
+}
+
+@media(min-width:992px){
+    .photo-label {
+        height: 240px;
+        overflow: hidden;
+        padding-top: 1px;
+    }
+    .photo-label > img {
+        display: block;
+        margin: 0 auto;
+        border: 0;
+        background-color: #eaeaea;
+        height: 100%;
+        width: initial;
+        position: absolute;
+        max-width: initial;
+        left: -55%;
+    }
+}
+
+.single-post-date {
+    color: #8c8c8c;
+}
+
+.red-number {
+    font-size: 70px;
+    font-family: "book", "book_ext", sans-serif !important;
+    font-style: normal;
+    font-weight: 300;
+    border: none;
+    color: #d72027;
+    margin: 0;
+    padding: 4px 0 0 0;
+    white-space: nowrap;
+    line-height: 97px;
+}
+
+/* Members Area - Validation Page */
+.main_validation.mArea .validation-box.alert{
+    padding: 30px 40px;
+}
+
+.main_validation.mArea .validation-box.alert .fa{
+    padding: 0;
+    font-size: 100px;
+}
+
+.main_validation.mArea .alert h3{
+    line-height: 1.3;
+}
+
+.main_validation.mArea .alert div.hr{
+    width: 30%;
+    background: #ccc;
+    height: 1px;
+    margin: auto;
+}
+
+.main_validation.mArea .alert ul.checks li{
+    padding: 0;
+    margin: 0 0 3px 0;
+}
+
+.main_validation.mArea .alert ul.checks li:before {
+    position: relative;
+    font-size: 18px;
+    top: -1px;
+    left: -4px;
+}
+
+.main_validation.mArea .alert.alert-success ul.checks li:before {color: #30a544;}
+.main_validation.mArea .alert.alert-warning ul.checks li:before {color: #b17c1f;}
+
+.main_validation.mArea .alert .xm-font {
+    font-size: 130px;
+    padding-right: 15px;
+}
+
+.main_validation.mArea .alert.alert-warning .xm-members-nocards {
+    color: #fea812;
+}
+
+/* Ramadan Promotion 2017 */
+#galaPromo .main-header > img {
+    padding: 0 30px;
+}
+#galaPromo .mainTitle {
+    font-size: 200px;
+}
+#galaPromo .bracket {
+    padding: 0 30px!important;
+}
+#galaPromo .bracket h3 {
+    font-size: 60px!important;
+}
+#galaPromo .main-msg {
+    font-size: 18px;
+}
+#galaPromo .prizes h3 {
+    font-size: 20px!important;
+    font-family: "Roboto", sans-serif;
+    text-transform: none;
+}
+#galaPromo .prizes p {
+    font-size: 16px;
+}
+#galaPromo .main-msg span {
+    position: relative;
+    top: -4px;
+    font-family: sans-serif;
+    font-size: 45px;
+    color: #d51820;
+}
+#galaPromo .subtitle {
+    position: relative;
+    display: block;
+    font-family: "bold",sans-serif;
+    font-weight: normal;
+    font-size: 55px;
+    color: #5c5c5c;
+    margin: 0 auto;
+    text-align: center;
+    white-space: normal;
+    line-height: normal;     
+}
+#galaPromo .subtitle .line {
+    padding: 0 25px;
+}
+#galaPromo .subtitle .line span {
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    z-index: 9; 
+    line-height: normal;
+    padding: 0 15px;   
+}
+#galaPromo .subtitle .line .separate {
+    display: block;
+    font-family: arial;
+    line-height: normal;
+    color: #d51820;
+    background-color: #fff;
+    text-align: center;
+    z-index: 9;
+    top: -5px;
+    position: relative;
+}
+#galaPromo .subtitle .line .separate:before {
+    display: block;
+    content: "";
+    width: 15%;
+    height: 3px;
+    margin: 0 auto;
+    background-color: #d51820;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    top: 38px;
+}
+#galaPromo .subtitle .line:before {
+    position: absolute;
+    display: block;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 70%;
+    border: 3px solid #d51820;
+    z-index: 1;
+    top: 31px;
+}
+
+#galaPromo .subtitle .line .separate span {
+    padding: 0 20px;
+}
+
+#galaPromo .prizes .duration {
+    font-family: "bold",sans-serif;   
+    font-size: 35px!important;
+    text-align: center;
+}
+@media(max-width:992px) {
+    #galaPromo .subtitle {
+        font-size: 40px!important;
+    }
+    #galaPromo .subtitle .line:before {
+        top:22px;
+    } 
+    #galaPromo .subtitle .line .separate:before {
+        display: none;
+    }
+    #galaPromo .subtitle .line .separate {
+        top: 0;
+    }       
+}
+/* End of Ramadan Promotion 2017 */
+
+/* QR code Kbank */
+
+.kbank .qr-box .top:before,
+.kbank .qr-box .top:after,
+.kbank .qr-box .bottom:before,
+.kbank .qr-box .bottom:after {
+    border-width: 8px;
+}
+
+.kbank .qr-box img {
+    max-width: 100%;
+    position: relative;
+    top: -25px;
+}
+.kbank .qr-box {
+    max-width: 170px;
+}
+.kbank .qr-box .bottom {
+    margin-top: -50px;
+}
+/* End of QR code Kbank */
+
+.flag-icon.mx {
+    background: url('/assets/img/common/flags/mx.svg?1.0');
+    width: 100%;
+    height: 66.66%;
+    background-size: 100% 100%;
+}
+
+/* FXWC Promotion JUNE-JULY 2017 */
+
+#galaPromo.fxwc .mainTitle {
+    font-size: 285px;
+    line-height: normal;
+}
+
+#galaPromo.fxwc .prizes {
+    position: relative;
+}
+
+#galaPromo.fxwc .prizes > img {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#galaPromo .prizes .duration {
+    position: relative;
+    z-index: 5;
+}
+@media (min-width:1200px) {
+    #galaPromo.fxwc .prizes {
+        padding-top: 430px;
+    }
+    #galaPromo.fxwc .main-header .line:before,
+    #galaPromo.fxwc .main-header .line:after {
+        content: "";
+        display: inline-block;
+        width: 70px;
+        height: 5px;
+        background-color: #d51820;
+        vertical-align: middle;
+        margin: 0 30px;
+    }
+}
+@media (min-width:992px) {
+    #galaPromo.fxwc .subtitle {
+        font-size: 80px;
+        line-height: 40px;
+    }
+    #galaPromo.fxwc .main-header > .wrap {
+        position: absolute;
+        top: 90px;
+        width: 100%;
+    }
+    #galaPromo .main-msg.main-text {
+        text-transform: uppercase;
+        font-family: "bold";
+        font-size: 40px;
+        font-weight: bold;
+        color: #5c5c5c;
+        line-height: normal;
+    }
+}
+
+
+@media (max-width:991px) {
+    #galaPromo.fxwc .main-header > img {
+        display: none;
+    }
+}
+/* End of FXWC Promotion JUNE-JULY 2017 */

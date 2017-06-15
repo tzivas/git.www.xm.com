@@ -1,0 +1,88 @@
+/* --------------------------------------------------------------------------------------
++
++ Malay
++
+-------------------------------------------------------------------------------------- */
+
+.main-photo .block .big-slider-title {
+  font-size: 63px;
+}
+
+.links-slider .slide a small {
+  font-size: 16px;
+}
+
+/********************************   Promotion pages   *******************************/
+.lots_bonus_single.lots_traded_circle .small_txt {
+  line-height: 18px;
+}
+
+.sticky-bar .content .text {
+  width: initial;
+}
+
+a.btn.btn-solid, button.btn.btn-red, .btn.btn-red, .btn.btn-blck .smaller-font-22 {
+  font-size: 22px;
+}
+
+.buttons-wrap a.btn {
+  font-size: 30px;
+}
+
+#main-nav.navbar-nav > li > a{
+    padding: 10px 10px;
+    font-size: 19px!important;
+}
+
+.main-site #main-nav.navbar-nav .main-nav ul{
+    position: relative;
+    top: 7px;
+}
+
+@media (max-width: 1199px) {
+    #main-nav.navbar-nav.nav-logo > li > a {
+        font-size: 17px!important;
+    }
+}
+
+/**********************************   MEMBERS AREA   **********************************/
+
+
+
+/****************************   Sliders   ***************************/
+
+
+/***************************   Forex World Championship   *****************************/
+#world-championship .round-circle .round{
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+ul#myTabCards.nav-tabs li a
+{
+    padding: 12px 10px;
+    font-size: 15px;
+}
+
+/***************************   Malaysia Gala Dinner 2016   *****************************/
+
+#galaPromo .col-sm-6 h2{
+    font-size: 27px;!important;
+}
+.main-site.hp-v17 .text-btn-content .box-text-btn p {
+  font-size: 21px;
+}
+@media (min-width: 1199px){
+    .members_area #main-nav.navbar-nav > li > a {
+        font-size: 18px !important;
+    }
+}
+
+@media(max-width: 1199px) and (min-width: 992px){
+   .members_area #main-nav.navbar-nav > li > a {
+      font-size: 17px !important;
+  } 
+}
+#galaPromo .subtitle {
+    font-size: 52px;
+}

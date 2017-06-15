@@ -1,0 +1,132 @@
+/**********************************   Countdown   ***********************************/
+.prize_pool li div{
+  width: 90px;
+  text-align: left;
+  padding-left: 7px;
+}
+
+.prize_pool li div.position			{ width: auto; padding-left: 0; }
+.main_right ul.prize_pool			{ padding-left: 80px; }
+.main_right .prize_pool div.prize		{ width: 230px; }
+.main_right h4						{ padding-left: 80px; }
+.competition_paragraph p.comp_terms	{ padding-left: 5px; }
+
+.top_bullets .left{ width: 60%; }
+.top_bullets .right{ width: 40%; }
+
+/**************************   Demo competition 15/07/13   ***************************/
+.demo10k .top_bullets .left{
+  width: 65%;
+}
+.demo10k .top_bullets .right {
+  width: 35%;
+}
+
+/****************************   Gold & Silver 24/07/13   ****************************/
+.goldsilver .prize_pool li {
+  margin-left: 30px;
+}
+.goldsilver .prize_pool div.prize {
+  width: 185px;
+}
+
+/*************************   Contests 20$ Free 11/12/2013   *************************/
+body.contests_20_free .top_dark .quote_live {
+  font-size: 38px;
+}
+body.contests_20_free .middle .main_left .twenty {
+  font-size: 130px;
+  font-weight: bold;
+  line-height: 170px;
+  text-transform: uppercase;
+}
+body.contests_20_free .middle .main_left .free {
+  font-size: 247px;
+  line-height: 258px;
+}
+body.contests_20_free .middle .main_left .start {
+  font-size: 58px;
+  line-height: 106px;
+}
+body.contests_20_free .middle .main_right ul li {
+  font-weight: 400;
+  font-size: 28px;
+  padding: 10px 0 10px 60px;
+}
+body.contests_20_free .middle .main_right .create {
+  font-size: 28px;
+}
+body.contests_20_free .middle .main_right {
+  margin-bottom: 10px;
+}
+body.contests_20_free .middle .main_left {
+  padding-right: 10px;
+  height: 525px;
+}
+body.contests_20_free .middle .main_right {
+  padding-left: 10px;
+}
+
+/********************************   Ramadan 2014   ********************************/
+body.ramadan_2014 .top_title {
+  font-size: 38px;
+  text-align: justify;
+}
+
+body.ramadan_2014 .offer_gold {
+  font-size: 74px;
+  text-align: center;
+}
+
+body.ramadan_2014 .offer_white {
+  font-size: 39px;
+  text-align: justify;
+}
+
+body.ramadan_2014 .offer_holiday {
+  text-align: center;
+  font-size: 33px;
+}
+
+body.ramadan_2014 .offer_holiday.second {
+  text-align: center;
+  font-size: 31px;
+}
+
+body.ramadan_2014 .info_box a.button.gold.flat {
+  margin-top: 18px;
+}
+
+body.ramadan_2014 .info_box .offer_gold {
+  line-height: 76px;
+  padding-top: 17px;
+}
+
+body.ramadan_2014 .info_box .offer_holiday {
+  padding-top: 10px;
+}
+
+/************************************   Promo   ************************************/
+.promo .g1g3 .right_box ul li {
+  font-size: 23px;
+  line-height: 34px;
+}
+
+/**********************************  affiliates ************************************/
+.affiliate.affiliates .aff-program .box h4 {
+  font-size: 77px;
+  top: 12px;
+}
+.affiliate.affiliates .aff-program .box h3 {
+  top: 4px;
+  font-size: 35px;
+}
+
+/*******************************   Sub - affiliates *********************************/
+.affiliate.sub_affiliates .aff-program .box h4 {
+  font-size: 99px;
+  top: -5px;
+}
+.affiliate.sub_affiliates .aff-program .box h3 {
+  top: -24px;
+}

@@ -1,0 +1,472 @@
+@font-face {
+  font-family: 'xmfont';
+  src:  url('https://s3.amazonaws.com/icomoon.io/73657/XM-Font-V1-Live/xmfont.eot?svrdf4');
+  src:  url('https://s3.amazonaws.com/icomoon.io/73657/XM-Font-V1-Live/xmfont.eot?svrdf4#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/icomoon.io/73657/XM-Font-V1-Live/xmfont.woff2?svrdf4') format('woff2'),
+    url('https://s3.amazonaws.com/icomoon.io/73657/XM-Font-V1-Live/xmfont.ttf?svrdf4') format('truetype'),
+    url('https://s3.amazonaws.com/icomoon.io/73657/XM-Font-V1-Live/xmfont.woff?svrdf4') format('woff'),
+    url('https://s3.amazonaws.com/icomoon.io/73657/XM-Font-V1-Live/xmfont.svg?svrdf4#xmfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.xm-font {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'xmfont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.xm-like:before {
+  content: "\e918";
+}
+.xm-photo:before {
+  content: "\e919";
+}
+.xm-donation:before {
+  content: "\e910";
+}
+.xm-shapes:before {
+  content: "\e912";
+}
+.xm-commodities:before {
+  content: "\e914";
+}
+.xm-user-height:before {
+  content: "\e904";
+}
+.xm-birthday:before {
+  content: "\e905";
+}
+.xm-camera-video:before {
+  content: "\e906";
+}
+.xm-director:before {
+  content: "\e907";
+}
+.xm-music:before {
+  content: "\e908";
+}
+.xm-olympic:before {
+  content: "\e909";
+}
+.xm-producer:before {
+  content: "\e90a";
+}
+.xm-sprinter:before {
+  content: "\e90c";
+}
+.xm-star:before {
+  content: "\e90e";
+}
+.xm-user-profile:before {
+  content: "\e916";
+}
+.xm-trader:before {
+  content: "\e917";
+}
+.xm-ipad:before {
+  content: "\e901";
+}
+.xm-adroid-tablet:before {
+  content: "\e902";
+}
+.xm-bull:before {
+  content: "\e903";
+}
+.xm-play-solid:before {
+  content: "\e666";
+}
+.xm-document:before {
+  content: "\e636";
+}
+.xm-spread25:before {
+  content: "\e96d";
+}
+.xm-promotions:before {
+  content: "\e96f";
+}
+.xm-qq:before {
+  content: "\e665";
+}
+.xm-youku:before {
+  content: "\e664";
+}
+.xm-dev-android-pl:before {
+  content: "\e90b";
+}
+.xm-dev-laptop-pl:before {
+  content: "\e90f";
+}
+.xm-dev-mac-pl:before {
+  content: "\e911";
+}
+.xm-leverage-500:before {
+  content: "\e900";
+}
+.xm-leverage-100:before {
+  content: "\e976";
+}
+.xm-corded-phone:before {
+  content: "\e91c";
+}
+.xm-pdf-thin:before {
+  content: "\e929";
+}
+.xm-magnify:before {
+  content: "\e601";
+}
+.xm-gears:before {
+  content: "\e602";
+}
+.xm-trash:before {
+  content: "\e603";
+}
+.xm-mobile-devices:before {
+  content: "\e604";
+}
+.xm-quote:before {
+  content: "\e605";
+}
+.xm-ex:before {
+  content: "\e606";
+}
+.xm-target:before {
+  content: "\e607";
+}
+.xm-touch:before {
+  content: "\e609";
+}
+.xm-tools:before {
+  content: "\e60a";
+}
+.xm-scatterplot-board:before {
+  content: "\e60b";
+}
+.xm-enter:before {
+  content: "\e60c";
+}
+.xm-scatterplot-spiral:before {
+  content: "\e60e";
+}
+.xm-users-2:before {
+  content: "\e610";
+}
+.xm-mac:before {
+  content: "\e611";
+}
+.xm-stopwatch:before {
+  content: "\e615";
+}
+.xm-percent100:before {
+  content: "\e616";
+}
+.xm-spread01:before {
+  content: "\e617";
+}
+.xm-credit:before {
+  content: "\e619";
+}
+.xm-checked:before {
+  content: "\e61a";
+}
+.xm-bonus-2:before {
+  content: "\e61b";
+}
+.xm-restricted:before {
+  content: "\e61c";
+}
+.xm-reload:before {
+  content: "\e61d";
+}
+.xm-user:before {
+  content: "\e61e";
+}
+.xm-chess-tower:before {
+  content: "\e61f";
+}
+.xm-calendar-2:before {
+  content: "\e622";
+}
+.xm-agreement:before {
+  content: "\e623";
+}
+.xm-download:before {
+  content: "\e626";
+}
+.xm-zero:before {
+  content: "\e628";
+}
+.xm-statistics:before {
+  content: "\e629";
+}
+.xm-education:before {
+  content: "\e62a";
+}
+.xm-bar-chart-down:before {
+  content: "\e62b";
+}
+.xm-stamp:before {
+  content: "\e62d";
+}
+.xm-earth:before {
+  content: "\e62e";
+}
+.xm-safe:before {
+  content: "\e62f";
+}
+.xm-anchor-points:before {
+  content: "\e630";
+}
+.xm-bar-chart-up:before {
+  content: "\e631";
+}
+.xm-award:before {
+  content: "\e632";
+}
+.xm-gold-stack:before {
+  content: "\e633";
+}
+.xm-money-bag:before {
+  content: "\e634";
+}
+.xm-candle-chart:before {
+  content: "\e635";
+}
+.xm-usd10:before {
+  content: "\e637";
+}
+.xm-percent10:before {
+  content: "\e638";
+}
+.xm-oil:before {
+  content: "\e63a";
+}
+.xm-bar-chart-3:before {
+  content: "\e63b";
+}
+.xm-candles-2:before {
+  content: "\e63d";
+}
+.xm-coins:before {
+  content: "\e63f";
+}
+.xm-h24-5:before {
+  content: "\e640";
+}
+.xm-leverage-888:before {
+  content: "\e641";
+}
+.xm-link:before {
+  content: "\e642";
+}
+.xm-clock:before {
+  content: "\e643";
+}
+.xm-percent:before {
+  content: "\e644";
+}
+.xm-chart-magnify:before {
+  content: "\e649";
+}
+.xm-pie-chart:before {
+  content: "\e64b";
+}
+.xm-bonus:before {
+  content: "\e64c";
+}
+.xm-fx:before {
+  content: "\e64d";
+}
+.xm-bar-chart:before {
+  content: "\e64e";
+}
+.xm-gold:before {
+  content: "\e64f";
+}
+.xm-oil-drop:before {
+  content: "\e650";
+}
+.xm-profile:before {
+  content: "\e651";
+}
+.xm-candles:before {
+  content: "\e652";
+}
+.xm-bars-arrow:before {
+  content: "\e653";
+}
+.xm-bar-chart-2:before {
+  content: "\e654";
+}
+.xm-horizontal-arrows:before {
+  content: "\e655";
+}
+.xm-scatterplot:before {
+  content: "\e656";
+}
+.xm-infinity:before {
+  content: "\e657";
+}
+.xm-balance:before {
+  content: "\e658";
+}
+.xm-globe:before {
+  content: "\e659";
+}
+.xm-edit:before {
+  content: "\e65a";
+}
+.xm-piggy:before {
+  content: "\e65b";
+}
+.xm-log-in:before {
+  content: "\e65c";
+}
+.xm-one-click:before {
+  content: "\e65d";
+}
+.xm-usd:before {
+  content: "\e65e";
+}
+.xm-pie-slice:before {
+  content: "\e65f";
+}
+.xm-secure:before {
+  content: "\e662";
+}
+.xm-play:before {
+  content: "\e627";
+}
+.xm-partners-commissions:before {
+  content: "\e95f";
+}
+.xm-partners-earth:before {
+  content: "\e960";
+}
+.xm-partners-time-report:before {
+  content: "\e964";
+}
+.xm-partners-wallet:before {
+  content: "\e966";
+}
+.xm-home-execution:before {
+  content: "\e943";
+}
+.xm-home-calendar:before {
+  content: "\e944";
+}
+.xm-home-chart:before {
+  content: "\e945";
+}
+.xm-home-client:before {
+  content: "\e946";
+}
+.xm-home-client-check:before {
+  content: "\e947";
+}
+.xm-home-coins:before {
+  content: "\e948";
+}
+.xm-home-commodities:before {
+  content: "\e949";
+}
+.xm-home-earth:before {
+  content: "\e94a";
+}
+.xm-home-energies:before {
+  content: "\e94b";
+}
+.xm-home-gold:before {
+  content: "\e94c";
+}
+.xm-home-investments:before {
+  content: "\e94d";
+}
+.xm-home-online-calendar:before {
+  content: "\e94e";
+}
+.xm-home-pie-chart:before {
+  content: "\e94f";
+}
+.xm-home-platforms:before {
+  content: "\e954";
+}
+.xm-home-regulations:before {
+  content: "\e955";
+}
+.xm-home-research:before {
+  content: "\e956";
+}
+.xm-home-signals:before {
+  content: "\e957";
+}
+.xm-home-stock:before {
+  content: "\e958";
+}
+.xm-home-support:before {
+  content: "\e959";
+}
+.xm-home-tutorials:before {
+  content: "\e95a";
+}
+.xm-home-visa:before {
+  content: "\e95b";
+}
+.xm-internal-transfers:before {
+  content: "\e600";
+}
+.xm-pie-quarter:before {
+  content: "\e620";
+}
+.xm-chart-h24:before {
+  content: "\e621";
+}
+.xm-low-chart:before {
+  content: "\e63c";
+}
+.xm-circles:before {
+  content: "\e645";
+}
+.xm-vertical-arrows:before {
+  content: "\e646";
+}
+.xm-shield:before {
+  content: "\e647";
+}
+.xm-details:before {
+  content: "\e648";
+}
+.xm-mt4-display:before {
+  content: "\e64a";
+}
+.xm-bull-solid:before {
+  content: "\e93c";
+}
+.xm-dev-iphone-pl:before {
+  content: "\e90d";
+}
+.xm-dev-pc-pl:before {
+  content: "\e913";
+}
+.xm-dev-tablet-pl:before {
+  content: "\e915";
+}

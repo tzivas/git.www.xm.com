@@ -1,0 +1,74 @@
+/* --------------------------------------------------------------------------------------
++
++ Swedish
++
+-------------------------------------------------------------------------------------- */
+.main-photo .block .btn-readmore, 
+.main-slider .block .btn-readmore {
+    font-size: 24px;
+}
+.main-photo .block .big-slider-title {
+  font-size: 57px;
+}
+.single-line {
+  top: -20px;
+}
+
+.links-slider .slide a small {
+  font-size: 15px;
+}
+
+.header-top ul li + li {
+  margin-left: 12px;
+}
+
+.header-top a.btn.btn-solid.btn-red {
+  padding: 8px 13px !important;
+}
+
+.header-top a.btn.btn-white {
+  padding: 8px 13px !important;
+}
+
+/********************************   Promotion pages   *******************************/
+.promotion h4 {
+  font-size: 23px;
+}
+
+.lots_bonus_single .small_txt {
+  padding: 0 14px;
+  line-height: 20px;
+}
+
+.loyalty-status p span {
+  font-size: 17px;
+}
+
+/**********************************   XM CONTESTS   **********************************/
+.contest-promo h2 span {
+  font-size: 50px;
+}
+
+/***************************   Forex World Championship   *****************************/
+
+#world-championship .round-wrap.xl .round {
+    font-size: 44px;
+}
+#world-championship .round-wrap.xl .big-prizes .price {
+    font-size: 68px;
+}
+@media (min-width: 1200px) {
+    .members_area #main-nav.navbar-nav > li > a {
+        padding-left: 13px !important;
+        padding-right: 13px !important;
+    }
+}
+
+/***************************   Holiday Schedule   *****************************/
+/*.header-top .buttons-nav .btn-white,
+.header-top .buttons-nav a.btn-green,
+.header-top .buttons-nav a.btn-red,
+a.btn.btn-drop, button.btn.btn-drop {
+    font-size: 14px !important;
+}*/
+/***********************   End of Holiday Schedule   *************************/

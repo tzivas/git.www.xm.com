@@ -1,0 +1,1 @@
+var leverage={available:leverages,max:{account_type:{XMZero:500},country:{PL:100}}},currency={available:currencies,account_type:{XMZero:{"":pleaseSelect,EUR:"EUR",USD:"USD",JPY:"JPY"}},combinations:{0:{values:{account:"Micro",country:"CN"},exceptions:["JPY"]},1:{values:{account:"XMZero",country:"HU"},exceptions:["JPY"]}}};

@@ -1,0 +1,712 @@
+/********************************   Usain Bolt   *********************************/
+#usain-bolt .header-bg {
+    position: relative;
+    width: 100%;
+    background: #000 url("/assets/img/pages/usain-bolt/usain-bolt-header.jpg") no-repeat center 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#usain-bolt .about-bolt {
+    text-align: center;
+}
+#usain-bolt .about-bolt h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #434343;
+    text-transform: uppercase;
+}
+#usain-bolt .about-bolt span {
+    font-size: 18px;
+    font-weight: normal;
+    color: #30a544;
+}
+#usain-bolt .mainTitle {
+    font-family: "bold", sans-serif;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    letter-spacing: normal;
+    color: #29a643;
+}
+#usain-bolt .mainTitle span {
+    color: #fff;
+}
+#usain-bolt .mainTitle .x {
+    position: relative;
+    top: -12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    font-weight: 200;
+    vertical-align: middle;
+    color: #29a643;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+#usain-bolt .main-header h1 {
+    font-family: "bold", sans-serif;
+    font-size: 58px;
+}
+#usain-bolt .line-arrow {
+    position: relative;
+    border-top: 1px solid #ccc;
+    float: left;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#usain-bolt .line-arrow:before {
+    display: block;
+    position: relative;
+    top: -1px;
+    content: "";
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-left: 21px solid transparent;
+    border-right: 21px solid transparent;
+    border-top: 21px solid #ccc;
+}
+#usain-bolt .line-arrow:after {
+    display: block;
+    position: relative;
+    top: -22px;
+    content: "";
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+}
+#usain-bolt .bg-about {
+    position: relative;
+    background: transparent url('/assets/img/pages/usain-bolt/about-usain-bolt.png')no-repeat center 241px;
+}
+#usain-bolt .timeline-wrap {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+#usain-bolt .timeline {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#usain-bolt .timeline li {
+    position: relative;
+    display: block;
+    padding: 10px;
+    vertical-align: middle;
+    float: left;
+}
+#usain-bolt .timeline .img-wrap {
+    position: relative;
+    height: 180px;
+    vertical-align: middle;
+}
+#usain-bolt .timeline h4 {
+    font-family: "book", sans-serif;
+    font-weight: normal;
+    font-size: 43px;
+    color: #333232;
+    margin-bottom: 5px;
+}
+#usain-bolt .timeline h4 span {
+    display: block;
+    font-family: "bold_ext","bold", sans-serif !important;
+    font-size: 24px;
+    color: #29a643;
+}
+html[lang="vn"] #usain-bolt .timeline h4 span,
+html[lang="el"] #usain-bolt .timeline h4 span {
+    font-family: RobCond!important;
+}
+#usain-bolt .timeline p {
+    font-size: 15px;
+    direction: ltr;
+}
+#usain-bolt blockquote::before {
+    color: #29a643;
+}
+#usain-bolt .capitalize-wrap {
+    position: relative;
+    font-size: 20px;
+    font-weight: 300;
+}
+#usain-bolt .capitalize-wrap p {
+    line-height: normal;
+}
+#usain-bolt .text-capitalize {
+    float: left;
+    color: #29A643;
+    font-size: 131px;
+    line-height: 102px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+#usain-bolt blockquote {
+    margin: 30px 0 70px 0;
+}
+#owl-usainBolt {
+    position: relative;
+}
+#owl-usainBolt .owl-buttons {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    margin: auto 0;
+    font-size: 50px;
+    height: 50px;
+    line-height: 38px;
+    vertical-align: middle;
+}
+#owl-usainBolt .owl-prev {
+    left: 0;
+}
+#owl-usainBolt .owl-next {
+    right: 0;
+}
+#owl-usainBolt .owl-prev,
+#owl-usainBolt .owl-next {
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    text-align: center;
+}
+#owl-usainBolt .item {
+    position: relative;
+}
+#owl-usainBolt .item a {
+    position: relative;
+}
+#owl-usainBolt .item:hover a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+#owl-usainBolt .item:hover a:after {
+    content: "\f00e";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 55px;
+    width: 55px;
+    height: 55px;
+    margin: auto;
+    line-height: normal;
+    vertical-align: middle;
+    color: #ccc;
+    z-index: 2;
+}
+#usain-bolt .text-quote {
+    font-size: 32px;
+    font-weight: 500;
+    color: #434343;
+    text-align: center;
+}
+#usain-bolt h2.big {
+    position: relative;
+    margin-bottom: 5px;
+    z-index: 9;
+}
+#usain-bolt .text-center {
+    position: relative;
+    z-index: 9;
+}
+#usain-bolt .text-quote h3,
+#usain-bolt .text-quote h4 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #434343;
+}
+#usain-bolt .text-quote h3 {
+    font-weight: normal;
+    color: #999;
+}
+.text-quote h3 {
+    font-weight: normal;
+    color: #818181;
+}
+#usain-bolt .text-quote h4 {
+    line-height: 36px;
+}
+#usain-bolt .bracket {
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+    top: -17px;
+}
+#usain-bolt .bracket h3 {
+    display: block;
+    font-family: "bold", sans-serif;
+    font-weight: normal;
+    font-size: 46px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    white-space: normal;
+}
+#usain-bolt .bracket > .left,
+#usain-bolt .bracket > .right {
+    position: absolute;
+    top: -1px;
+    width: 15px;
+    height: 100%;
+    border: 3px solid #29a643;
+}
+#usain-bolt .bracket > .left {
+    left: 0;
+    border-right: 0;
+}
+#usain-bolt .bracket > .right {
+    right: 0;
+    border-left: 0;
+}
+.promo-bar {
+    position: relative;
+    color: #fff;
+    min-height: 51px;
+    font-weight: bold;
+}
+.promo-bar ul {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+    list-style: none;
+    text-align: center;
+}
+.promo-bar li {
+    display: block;
+    float: left;
+    padding: 0;
+}
+.promo-bar a {
+    margin-left: 15px;
+    color: #29a643;
+}
+.promo-bar a:visited,
+.promo-bar a:hover,
+.promo-bar a:focus{
+    color: #29a643;
+}
+.promo-bar .fa {
+    vertical-align: middle;
+    margin-left: 8px;
+}
+.promo-bar p {
+    position: relative;
+    top: 15px;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    z-index: 9;
+}
+
+.promo-bar li:nth-child(2) {
+    width: 100%;
+}
+
+html[lang="ar"] #owl-usainBolt,
+html[lang="ar"] #usain-bolt .main-header h1 {
+    direction: ltr !important;
+}
+
+html[lang="ar"] #usain-bolt .timeline li,
+html[lang="fa"] #usain-bolt .timeline li {
+    float: right;
+}
+
+html[lang="zh_CN"] #usain-bolt .bracket {
+    top: 0;
+}
+
+html[lang="tw"] #usain-bolt .bracket {
+    top: 0;
+}
+
+html[lang="bn"] #usain-bolt .bracket,
+html[lang="ar"] #usain-bolt .bracket,
+html[lang="fa"] #usain-bolt .bracket,
+html[lang="th"] #usain-bolt .bracket,
+html[lang="ja"] #usain-bolt .bracket {
+    top: 0;
+}
+
+html[lang="el"] #usain-bolt .bracket h3 {
+    font-family: RobCond;
+}
+html[lang="fa"] #owl-usainBolt,
+html[lang="fa"] #usain-bolt .main-header h1 {
+    direction: ltr !important;
+}
+html[lang="ko"] #usain-bolt .bracket {
+    top: 10px;
+}
+
+html[lang="ru"] #usain-bolt .main-header h1,
+html[lang="ru"] #usain-bolt .bracket h3 {
+    font-family: "bold_ext","bold", sans-serif;
+}
+html[lang="vn"]  #usain-bolt .bracket h3 {
+    font-family: "robcond", sans-serif;
+}
+
+
+/*************** Media Queries ***************/
+
+@media(min-width:1200px) {
+    html[lang="el"] #usain-bolt .bracket h3 {
+        font-size: 35px;
+    }
+    html[lang="vn"] #usain-bolt .bracket h3 {
+        font-size: 39px;
+    }
+    html[lang="bn"] #usain-bolt .bracket h3 {
+        font-size: 33px;
+    }
+    html[lang="cz"] #usain-bolt .bracket h3,
+    html[lang="de"] #usain-bolt .bracket h3 {
+        font-size: 45px;
+    }
+    html[lang="es"] #usain-bolt .bracket h3 {
+        font-size: 41px;
+    }
+    html[lang="nl"] #usain-bolt .bracket h3,
+    html[lang="ph"] #usain-bolt .bracket h3,
+    html[lang="fr"] #usain-bolt .bracket h3{
+        font-size: 44px;
+    }
+    html[lang="ja"] #usain-bolt .bracket h3 {
+        font-size: 34px;
+    }
+    html[lang="ko"] #usain-bolt .bracket h3 {
+        font-size: 28px;
+    }
+    html[lang="th"] #usain-bolt .bracket h3 {
+        font-size: 26px;
+    }
+
+    #usain-bolt .timeline::before {
+        position: absolute;
+        display: block;
+        content: "";
+        top: 135px;
+        width: 100%;
+        border-bottom: 1px solid #29a643;
+    }
+    #usain-bolt .timeline li {
+        width: 14.28%;
+    }
+    #usain-bolt .timeline .img-wrap::before {
+        position: absolute;
+        content: "\f192";
+        display: block;
+        top: 103px;
+        left: 0;
+        right: 0;
+        width: 28px;
+        height: 34px;
+        margin: 0 auto;
+        font-family: FontAwesome;
+        font-size: 30px;
+        color: #29a643;
+        text-align: center;
+        background-color: #f1f1f1;
+        z-index: 9;
+    }
+    #usain-bolt .timeline .img-wrap::after {
+        position: absolute;
+        display: block;
+        top: 127px;
+        left: 0;
+        right: 0;
+        content: "";
+        width: 2px;
+        height: 30px;
+        margin: 0 auto;
+        background-color: #29a643;
+    }
+}
+@media(max-width:1199px) {
+    #usain-bolt .timeline li {
+        width: 25%;
+        display: inline-block;
+        float: none;
+        padding: 30px;
+    }
+    #usain-bolt .timeline li:nth-child(5) {}
+    #usain-bolt .timeline .img-wrap::before {
+        background-color: #fff;
+    }
+    #usain-bolt .timeline .img-wrap {
+        height: 100px;
+    }
+    #usain-bolt .section {
+        padding: 70px 0 0 0;
+        position: relative;
+        background-color: #f1f1f1;
+    }
+    #usain-bolt .bracket {
+        display: block;
+        margin: 0 auto;
+    }
+    #usain-bolt .bracket h3 {
+        font-size: 48px;
+    }
+
+    html[lang="bn"] #usain-bolt .bracket h3,
+    html[lang="ko"] #usain-bolt .bracket h3 {
+        font-size: 35px;
+    }
+}
+@media(min-width:768px) {
+    html[lang="ar"] #usain-bolt .main-header .img-wrap,
+    html[lang="fa"] #usain-bolt .main-header .img-wrap {
+        float: right;
+    }
+    html[lang="ar"] .usainbolt-footer h4,
+    html[lang="fa"] .usainbolt-footer h4,
+    html[lang="bn"] .usainbolt-footer h4,
+    html[lang="ja"] .usainbolt-footer h4,
+    html[lang="ko"] .usainbolt-footer h4,
+    html[lang="th"] .usainbolt-footer h4,
+    html[lang="zh_CN"] .usainbolt-footer h4,
+    html[lang="tw"] .usainbolt-footer h4,
+    html[lang="ru"] .usainbolt-footer h4 {
+        font-size: 50px;
+        line-height: 63px;
+    }
+    #usain-bolt .main-header .img-wrap {
+        position: relative;
+        width: 30%;
+        float: left;
+    }
+    html[lang="ar"] #usain-bolt .main-header .text-wrap,
+    html[lang="fa"] #usain-bolt .main-header .text-wrap {
+        right: initial;
+        left: 0;
+    }
+    #usain-bolt .main-header .text-wrap {
+        position: absolute;
+        width: 66%;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        height: 222px;
+        right: 0;
+        z-index: 9;
+    }
+    #usain-bolt .main-header {
+        position: relative;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    html[lang="ar"] .usainbolt-footer .text-wrap,
+    html[lang="fa"] .usainbolt-footer .text-wrap {
+        right: 22% !important;
+    }
+}
+@media(min-width:992px) {
+    html[lang="bn"] #usain-bolt .mainTitle .x,
+    html[lang="zh_CN"] #usain-bolt .mainTitle .x,
+    html[lang="fa"] #usain-bolt .mainTitle .x,
+    html[lang="ja"] #usain-bolt .mainTitle .x,
+    html[lang="ko"] #usain-bolt .mainTitle .x,
+    html[lang="th"] #usain-bolt .mainTitle .x,
+    html[lang="ar"] #usain-bolt .mainTitle .x,
+    html[lang="tw"] #usain-bolt .mainTitle .x {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    html[lang="ar"] #usain-bolt .bg-about .left,
+    html[lang="fa"] #usain-bolt .bg-about .left {
+        float: right!important;
+    }
+    #usain-bolt .bg-about .left {
+        float: left!important;
+    }
+    html[lang="ar"] #usain-bolt .bg-about .right,
+    html[lang="fa"] #usain-bolt .bg-about .right {
+        float: left!important;
+    }
+    #usain-bolt .bg-about .right {
+        float: right!important;
+    }
+    #usain-bolt .olympic {
+        position: relative;
+        z-index: 9;
+    }
+    #usain-bolt .olympic::before,
+    #usain-bolt .olympic::after {
+        position: absolute;
+        content: "";
+        top: 35px;
+        left: -40%;
+        width: 156px;
+        height: 190px;
+        /*background: transparent url("/assets/img/pages/usain-bolt/olympic.png")no-repeat 0 0;*/
+    }
+    #usain-bolt .olympic::after {
+        left: auto;
+        right: -40%;
+    }
+    .promo-bar {
+        border-bottom: 1px solid #262626;
+    }
+    .promo-bar .container {
+        position: relative;
+    }
+    .promo-bar li:nth-child(1) {
+        position: absolute;
+        left: 25px;
+    }
+    .promo-bar li:nth-child(3) {
+        position: absolute;
+        right: -15px;
+    }
+    .usainbolt-footer {
+        position: relative;
+    }
+    .usainbolt-footer h4,
+    .usainbolt-footer h5 {
+        color: #fff;
+        line-height: normal;
+        padding: 0;
+        margin: 0;
+    }
+    .usainbolt-footer h4 {
+        font-family: "bold","bold_ext",sans-serif;
+        font-size: 79px;
+        line-height: 65px;
+    }
+    .usainbolt-footer .text-wrap {
+        position: absolute;
+        top: -46%;
+        left: 22%;
+        bottom: 0;
+        margin: auto 0;
+        height: 105px;
+    }
+    .usainbolt-footer hr {
+        margin-bottom: 40px;
+    }
+    .usainbolt-footer img {
+        position: relative;
+        top: -65px;
+        margin-bottom: -86px;
+    }
+    #usain-bolt .bolt-record {
+        position: relative;
+        margin-top: -25px;
+    }
+}
+@media(max-width:991px) {
+    #usain-bolt .mainTitle {
+        text-align: center;
+    }
+    #usain-bolt .timeline li {
+        width: 45%;
+        display: inline-block;
+        float: none;
+        padding: 20px 0;
+    }
+    .promo-bar li:nth-child(1),
+    .promo-bar li:nth-child(3) {
+        display: none;
+    }
+    #usain-bolt .bg-about {
+        background-position: center bottom;
+    }
+    .usainbolt-footer {
+        display: none;
+    }
+    #usain-bolt .bracket {
+        top: -5px;
+    }
+    #usain-bolt .bracket h3 {
+        font-size: 28px;
+    }
+    #usain-bolt .mainTitle .x {
+        top: -6px;
+        font-size: 65px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+}
+@media(max-width:767px) {
+    #usain-bolt .mainTitle span,
+    #usain-bolt .bracket h3 {
+        color: #434343;
+    }
+    #usain-bolt .header-bg {
+        background: #fff;
+    }
+    #usain-bolt .header-bg {
+        background: none;
+    }
+    #usain-bolt .header-bg .img-wrap {
+        display: none;
+    }
+    #usain-bolt .bracket h3 {
+        font-size: 40px;
+    }
+    #usain-bolt .text-capitalize {
+        font-size: 90px;
+    }
+    #usain-bolt .capitalize-wrap {
+        padding-left: 70px;
+    }
+    #usain-bolt .about-bolt .left,
+    #usain-bolt .about-bolt .right {
+        float: none;
+    }
+}
+@media(max-width:600px) {
+    #usain-bolt .mainTitle span {
+        display: block;
+    }
+    #usain-bolt .mainTitle .x {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .promo-top h3 {
+        margin-top: 85px!important;
+    }
+}
+@media(max-width:420px) {
+    #usain-bolt .bracket h3 {
+        font-size: 35px;
+    }
+    html[lang="ru"] .promo-bar p,
+    html[lang="bn"] .promo-bar p,
+    html[lang="el"] .promo-bar p {
+        font-size: 12px;
+    }
+    .promo-top h3 .st2 {
+        font-size: 90px!important;
+    }
+}
+@media(min-width:320px) {
+    html[lang="ko"] #usain-bolt .main-header h1,
+    html[lang="ko"] #usain-bolt .bracket h3 {
+        font-weight: bold;
+    }
+
+}

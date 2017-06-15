@@ -1,0 +1,42 @@
+/**************************   Demo competition 15/07/13   ***************************/
+.demo10k .top_bullets.green{
+  font-size: 25px;
+}
+
+/*************************   Contests 20$ Free 11/12/2013   *************************/
+body.contests_20_free .top_dark .quote_live {
+  font-size: 44px;
+}
+body.contests_20_free .middle .main_left {
+  height: 520px;
+  padding: 0 0 0 20px;
+  width: 428px;
+}
+body.contests_20_free .middle .main_right {
+  height: 470px;
+  padding-left: 10px;
+}
+
+/********************************   Ramadan 2014   ********************************/
+body.ramadan_2014 .top_title { font-size: 34px; text-align: justify;}
+body.ramadan_2014 .offer_gold{ font-size: 103px; text-align: justify; }
+body.ramadan_2014 .offer_white { font-size: 77px; text-align: justify; }
+body.ramadan_2014 .offer_holiday { font-size: 24px; text-align: justify; }
+body.ramadan_2014 .offer_holiday.second{ font-size: 34px; text-align: justify; }
+
+/**********************************  affiliates ************************************/
+.affiliate .aff-program p {
+  font-size: 24px;
+}
+.affiliate.affiliates .aff-program .box h3 {
+  font-size: 30px;
+  top: -65px;
+}
+.affiliate.affiliates .aff-program .box h4 {
+  top: -40px;
+}
+
+/*******************************  sub - affiliates *********************************/
+.affiliate .aff-program .box h4 {
+  letter-spacing: 0px;
+}

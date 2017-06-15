@@ -1,0 +1,91 @@
+/****************************   Gold & Silver 24/07/13   ****************************/
+.prize_pool li div.position {
+  text-align: left;
+  width: 100px;
+}
+
+.prize_pool li {
+  margin-left: 30px;
+}
+
+.goldsilver .prize_pool div.prize {
+  width: 168px;
+}
+
+div.uls li, p.comp_terms {
+  font-size: 13px;
+}
+
+.top_bullets .left, .top_bullets .right {
+  line-height: 34px;
+}
+
+/*************************   Contests 20$ Free 11/12/2013   *************************/
+body.contests_20_free .top_dark .quote_live {
+  font-size: 44px;
+}
+
+body.contests_20_free .middle .main_left .start {
+  font-size: 54px;
+}
+
+body.contests_20_free .middle .main_right .create {
+  font-size: 30px;
+  padding: 35px 0 55px 22px;
+}
+
+body.contests_20_free .middle .main_left {
+  padding-left: 10px;
+}
+
+body.contests_20_free .middle .main_right {
+  margin-bottom: 0;
+  padding-left: 10px;
+}
+
+/**********************************   Lucky Draw   **********************************/
+body.lucky_draw .top {
+  font-family: 'Roboto Condensed','RobCond';
+}
+
+body.lucky_draw .middles .middle_container {
+  font-family: 'Roboto Condensed','RobCond';
+}
+
+body.lucky_draw h2.title {
+  font-family: 'Roboto Condensed','RobCond';
+}
+
+.lucky_draw a.button {
+  font-family: 'Roboto Condensed','RobCond';
+}
+
+body.lucky_draw .bottom p {
+  clear: both;
+}
+
+/**********************************  affiliates ************************************/
+.affiliate.affiliates .aff-program .box h4 {
+  font-size: 112px;
+  top: -19px;
+  font-family: roboto condensed;
+}
+
+.affiliate.affiliates .aff-program .box h3 {
+  top: -20px;
+  font-size: 30px;
+  font-family: roboto condensed;
+}
+
+/*******************************   Sub - affiliates *********************************/
+.affiliate.sub_affiliates .aff-program .box h4 {
+  font-size: 137px;
+  top: -20px;
+  font-family: roboto condensed;
+}
+
+.affiliate.sub_affiliates .aff-program .box h3 {
+  top: -36px;
+  font-size: 30px;
+  font-family: roboto condensed;
+}

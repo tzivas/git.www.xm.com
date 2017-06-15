@@ -1,0 +1,83 @@
+/* --------------------------------------------------------------------------------------
++
++ Italian
++
+-------------------------------------------------------------------------------------- */
+.main-photo .block .btn-readmore, 
+.main-slider .block .btn-readmore {
+    font-size: 24px;
+}
+
+.main-photo .block .big-slider-title {
+  font-size: 63px;
+}
+
+.links-slider .slide a small {
+  font-size: 17px;
+}
+
+.links-slider .slide a {
+  font-size: 25px;
+}
+
+/********************************   Promotion pages   *******************************/
+.promotion h4 {
+  font-size: 23px;
+}
+
+.lots_bonus_single .big_txt {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.lots_bonus_single .small_txt {
+  font-size: 18px;
+}
+
+.lots_bonus_single.lots_traded_circle .small_txt {
+  line-height: 23px;
+}
+
+.loyalty-status p span {
+  font-size: 18px;
+}
+
+/**********************************   XM CONTESTS   **********************************/
+.contest-promo h2 span {
+  font-size: 50px;
+}
+
+.members_area .navbar-nav > li > a {
+  padding: 10px 9px;
+}
+
+@media (min-width: 992px) and (max-width: 1299px){
+  .members_area #main-nav.navbar-nav > li > a {
+      font-size: 17px!important;
+    }
+}
+
+/***************************   Forex World Championship   *****************************/
+
+#world-championship .header h2 {
+    font-size: 48px; 
+}
+
+#world-championship .round-wrap.xl .round {
+    font-size: 42px;
+}
+
+.buttons-wrap a.btn small > span {
+  display: none;
+}
+
+/* HOMEPAGE 2017 */
+.main-site.hp-v17 #hero-content .title {
+  font-size: 33px;
+}
+@media (max-width: 374px) {
+  .main-site.hp-v17 .buttons-wrap a.btn small {
+      font-size: 12px!important;
+  }
+}
+/* END HOMEPAGE 2017 */

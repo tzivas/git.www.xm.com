@@ -1,0 +1,239 @@
+/**********************************   Countdown   ***********************************/
+.middle h3, .top_bullets, .main_right h4, a.button, .prize_pool li div, .banner .tab h3, .banner h4{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+.banner .tab h3		{ font-size: 20px; }
+.main_right h4		{ font-weight: 700; }
+.main_right .prize_pool	{ padding-bottom: 4px; }
+a.button .button_text	{ font-size: 18px; }
+a.button.regclosed .button_text	{ font-size: 26px; }
+
+.top_bullets{ font-size: 22px; padding: 40px 10px 30px; }
+.top_bullets .left{ width: 65%; }
+.top_bullets .right{ width: 35%; }
+
+/**************************   Demo competition 15/07/13   ***************************/
+.tab.green h3 {
+  font-size: 21px;
+  padding-top: 0;
+}
+.top_bullets.green {
+  font-size: 27px;
+  font-size: 25px;
+  padding: 50px 10px 30px;
+}
+.demo10k .top_bullets .left{
+  width: 70%;
+}
+.demo10k .top_bullets .right {
+  width: 30%;
+}
+.demo10k .top_bullets .left, .demo10k .top_bullets .right{
+  font-size: 22px;
+  margin-bottom: 22px;
+}
+
+/****************************   Gold & Silver 24/07/13   ****************************/
+.goldsilver .top_dark {
+  height: 700px;
+}
+.goldsilver .comp_title {
+  font-family: 'Roboto Slab',serif;
+  font-weight: 400;
+}
+.goldsilver .actionstrip h4,
+.goldsilver div.infobox.green{
+  font-family: roboto slab;
+}
+.goldsilver .prize_pool div.prize {
+  width: 218px;
+}
+.goldsilver a.button.green.gold {
+  font-family: roboto slab;
+  font-weight: 400;
+}
+.goldsilver .top_bullets .left, .goldsilver .top_bullets .right {
+  font-size: 15px;
+  line-height: 40px;
+  width: 50%;
+}
+
+/*******************   €50 Free + 100% Bonus Promotion 15/09/13   *******************/
+.fifty div.bonus {
+  top: 127px;
+}
+.fifty div.terms .headliner{
+  font-size: 26px;
+}
+.fifty div.bonus .headliner {
+  font-family: 'Roboto Slab',serif;
+  font-size: 108px;
+}
+.fifty div.bonus .amount {
+  font-family: 'Roboto Slab',serif;
+  font-size: 70px;
+  line-height: 70px;
+}
+.fifty div.bonus .flag {
+  top: -8px;
+}
+.fifty div.terms {
+  font-family: 'Roboto Slab',serif;
+}
+.fifty a.button .button_text{
+  font-size: 28px;
+}
+.fifty .shiner{
+  top: -332px;
+}
+.fifty div.terms .headliner_answer {
+  font-size: 19px;
+  margin-top: 23px;
+}
+div.promodate {
+  font-family: 'Roboto Slab',serif;
+  font-size: 18px;
+}
+
+/*********************   Skrill Promotion 17/10/13 - 16/11/13   *********************/
+.skrill .top_half .headline {
+  /*font-family: 'Roboto Condensed','RobCond';
+  font-size: 80px;
+  top: 392px;
+  top: 368px;*/
+}
+.skrill .top_half .push_button_wrapper {
+  /* top: 431px;
+   top: 410px;*/
+}
+.skrill .top_half .push_button_wrapper a.buttonSkrill div.button_head {
+  font-family: 'Roboto Condensed','RobCond';
+  font-size: 44px;
+  padding-top: 19px;
+}
+.skrill .top_half .push_button_wrapper a.buttonSkrill div.button_body {
+  font-size: 18px;
+  margin-top: -1px;
+}
+.skrill .promo_guidelines h3 {
+  font-family: 'Roboto Condensed','RobCond';
+}
+
+/*************************   Contests 20$ Free 11/12/2013   *************************/
+body.contests_20_free .top_dark .quote_live {
+  font-size: 42px;
+  font-family: 'Roboto Condensed','RobCond';
+}
+body.contests_20_free .middle .main_left .twenty {
+  font-size: 260px;
+  font-family: 'Roboto Condensed','RobCond';
+  line-height: 250px;
+}
+body.contests_20_free .middle .main_left .free {
+  font-size: 74px;
+  font-family: 'Roboto Condensed','RobCond';
+  line-height: 121px;
+}
+body.contests_20_free .middle .main_left .start {
+  font-size: 36px;
+  line-height: 32px;
+}
+body.contests_20_free .middle .main_right ul li {
+  font-family: 'Roboto Condensed','RobCond';
+  font-weight: 700;
+  font-size: 30px;
+  padding: 5px 0 5px 60px;
+  background: url('/assets/img/landing/contests_20_free/box_check.png') 0 8px no-repeat;
+}
+body.contests_20_free .middle .main_right a.free_button_twenty {
+  font-family: 'Roboto Condensed','RobCond';
+  font-size: 39px;
+}
+body.contests_20_free .middle .main_right .create {
+  font-family: 'Roboto Condensed','RobCond';
+  font-weight: 700;
+  padding: 25px 0 55px 22px;
+  font-size: 30px;
+}
+body.contests_20_free .middle .main_left {
+  height: 430px;
+  padding-right: 10px;
+}
+body.contests_20_free .middle .main_right {
+  margin-bottom: 0px;
+  padding-left: 10px;
+  height: 430px;
+}
+body.contests_20_free div.button_container {
+  margin: 25px 20px 10px;
+}
+
+/**********************************   Lucky Draw   **********************************/
+body.lucky_draw .top{
+  font-family: 'Roboto Condensed','RobCond';
+}
+body.lucky_draw .middles .middle_container{
+  font-family: 'Roboto Condensed','RobCond';
+  margin-top: -48px;
+  font-size: 21px;
+}
+body.lucky_draw h2.title{
+  font-family: 'Roboto Condensed','RobCond';
+}
+.lucky_draw a.button {
+  font-family: 'Roboto Condensed','RobCond';
+  font-size: 23px;
+}
+body.lucky_draw .right_tab {
+  font-size: 20px;
+  line-height: 25px;
+}
+body.lucky_draw ul.prizes li {
+  padding: 0 32px;
+}
+body.lucky_draw .bottom p {
+  clear: both;
+}
+body.lucky_draw .middles {
+  background-position: 0 -117px;
+}
+
+/************************************   Promo   ************************************/
+.promo .g1g3 .left_box h3.first,
+.promo .g1g3 .left_box h3.last {
+  font-size: 38px;
+}
+
+.promo .g1g3 .right_box ul li {
+  font-size: 23px;
+  line-height: 34px;
+}
+
+.promo .g2 .left_box h3.first,
+.promo .g2 .left_box h3.last {
+  font-size: 37px;
+}
+
+/**********************************  affiliates ************************************/
+.affiliate .aff-program p {
+  font-size: 32px;
+}
+.affiliate .aff-program .box h4 {
+  top: -60px;
+}
+.affiliate.affiliates .aff-program .box h3 {
+  font-family: roboto condensed;
+  font-size: 31px;
+}
+
+/*******************************   Sub - affiliates *********************************/
+.affiliate.sub_affiliates .aff-program .box h4 {
+  font-size: 90px;
+  top: -18px;
+  font-family: roboto condensed;
+}
+.affiliate.sub_affiliates .aff-program .box h3 {
+  top: -14px;
+  font-size: 38px;
+}

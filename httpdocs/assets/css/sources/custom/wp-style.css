@@ -1,0 +1,17 @@
+/* --------------------------------------------------------------------------------------
++
++ WordPress Theme
++
+-------------------------------------------------------------------------------------- */
+
+/* ******************* AMP Pagefrog plugin ******************** */
+.ui-sortable .row{
+    display: table-row!important;
+}
+.ui-sortable .row:before,.ui-sortable .row:after{
+    content:normal!important;
+}
+
+#pagefrog-preview-format .row {
+    display: block!important;
+}
